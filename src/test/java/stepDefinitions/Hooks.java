@@ -5,6 +5,7 @@ import Basepack.DriverManager;
 import Utilities.ConfigReader;
 import Utilities.ScreenshotUtil;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
@@ -12,6 +13,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.ByteArrayInputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Hooks {
 
@@ -27,6 +30,19 @@ public class Hooks {
     @Before
     public void beforeScenario(Scenario scenario) {
         logger.info("Starting scenario: " + scenario.getName());
+    }
+
+    @AfterStep
+    public void afterEachStep() {
+        String timeStamp = new SimpleDateFormat("HH:mm:ss.SSS").format(new Date());
+        byte[] screenshot = ScreenshotUtil.takeScreenshot(DriverManager.getDriver());
+
+        Allure.addAttachment(
+                "Step Screenshot - " + timeStamp,
+                "image/png",
+                new ByteArrayInputStream(screenshot),
+                ".png"
+        );
     }
 
     @After

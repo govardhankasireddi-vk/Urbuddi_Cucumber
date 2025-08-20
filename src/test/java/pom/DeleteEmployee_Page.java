@@ -2,15 +2,10 @@ package pom;
 
 import Utilities.ElementUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 import java.util.List;
 
 public class DeleteEmployee_Page extends ElementUtils {
@@ -19,7 +14,7 @@ public class DeleteEmployee_Page extends ElementUtils {
         super(driver);
         PageFactory.initElements(driver, this);
     }
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
 
     @FindBy(xpath = "//div[@class='ag-selection-checkbox']")
     List<WebElement> checkBox;
@@ -29,11 +24,6 @@ public class DeleteEmployee_Page extends ElementUtils {
 
 
     By actualemployee = By.xpath("//div[@role ='row'][@row-index='0']//div[@aria-colindex='6']");
-
-    //div[@class='ag-selection-checkbox']//input[@type='checkbox']
-    //div[@role ='row'][@row-index='0']//div[@aria-colindex='6']
-
-
 
     @FindBy(xpath = "//input[contains(@aria-label,'NAME')]")
     WebElement nameFilterInput;
@@ -62,7 +52,7 @@ public class DeleteEmployee_Page extends ElementUtils {
         return Integer.parseInt(getText(PageNo));
     }
 
-    public void deleteEmployee() throws InterruptedException {
+    public void deleteEmployee()  {
 
         for (int i = 0; i < getCheckBox(); i++) {
             item = checkBox.get(i);
@@ -88,7 +78,7 @@ public class DeleteEmployee_Page extends ElementUtils {
     }
 
     public void clickDeleteBtn(){
-        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0)");
+        scrollUp();
         click(deleteBtn);
     }
 }

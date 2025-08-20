@@ -39,11 +39,11 @@ public class DeleteStep {
         }
 
         @When("Click on Employee icon and delete the employee")
-        public void clickOnEmployeeIconAndDeleteTheEmployee() throws InterruptedException {
+        public void clickOnEmployeeIconAndDeleteTheEmployee() {
             homePage.clickEmployeePage();
             deleteEmployeePage.setName(name);
             if(deleteEmployeePage.employeesfilitered()) {
-                for (int i = 1; i <= 1; i++) {
+                for (int i = 1; i <= deleteEmployeePage.getMaxPageNo(); i++) {
                     deleteEmployeePage.deleteEmployee();
                     deleteEmployeePage.clickNextPageBtn();
                 }
@@ -52,6 +52,6 @@ public class DeleteStep {
             System.out.println("delete employee");
         }
     }
-   // deleteEmployeePage.getMaxPageNo()
+   //
 
 

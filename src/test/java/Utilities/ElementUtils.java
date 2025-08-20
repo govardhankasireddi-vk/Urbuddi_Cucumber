@@ -70,6 +70,9 @@ public class ElementUtils {
         visibilityOfElement(element, 15L);
         return element.getText();
     }
+    public void scrollUp(){
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0)");
+    }
 
 }
 
