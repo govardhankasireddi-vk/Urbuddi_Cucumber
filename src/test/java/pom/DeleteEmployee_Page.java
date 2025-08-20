@@ -88,7 +88,7 @@ public class DeleteEmployee_Page extends ElementUtils {
     }
 
     public void clickDeleteBtn(){
-       // ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0)");
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0)");
         click(deleteBtn);
     }
 }
