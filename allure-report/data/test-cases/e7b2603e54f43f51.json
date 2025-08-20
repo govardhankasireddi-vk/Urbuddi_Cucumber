@@ -1,0 +1,184 @@
+{
+  "uid" : "e7b2603e54f43f51",
+  "name" : "Delete a  user",
+  "fullName" : "src/test/java/features/deleteUser.feature:4",
+  "historyId" : "4254f23a59ed33390c0a0d367c0ff796",
+  "time" : {
+    "start" : 1755669253364,
+    "stop" : 1755669287021,
+    "duration" : 33657
+  },
+  "description" : "  This feature is to login to the urbuddi portal.",
+  "descriptionHtml" : "<p>This feature is to login to the urbuddi portal.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 51). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c106adccb0f86935bb8b6e5fcafa5d02, clickElement {id=f.8807AC901274A904BB46C512C32312E2.d.E501B83F41F6AE71FF9E805D08B82757.e.119}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51870/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c106adccb0f86935bb8b6e5fcafa5d02)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c106adccb0f86935bb8b6e5fcafa5d02",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 51). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c106adccb0f86935bb8b6e5fcafa5d02, clickElement {id=f.8807AC901274A904BB46C512C32312E2.d.E501B83F41F6AE71FF9E805D08B82757.e.119}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51870/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c106adccb0f86935bb8b6e5fcafa5d02)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c106adccb0f86935bb8b6e5fcafa5d02\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:66)\r\n\tat pom.DeleteEmployee_Page.clickDeleteBtn(DeleteEmployee_Page.java:80)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:53)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755669255019,
+      "stop" : 1755669255020,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.driverIntialize()",
+    "time" : {
+      "start" : 1755669253369,
+      "stop" : 1755669254888,
+      "duration" : 1519
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "  This feature is to login to the urbuddi portal.",
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 51). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c106adccb0f86935bb8b6e5fcafa5d02, clickElement {id=f.8807AC901274A904BB46C512C32312E2.d.E501B83F41F6AE71FF9E805D08B82757.e.119}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51870/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c106adccb0f86935bb8b6e5fcafa5d02)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c106adccb0f86935bb8b6e5fcafa5d02",
+    "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 51). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c106adccb0f86935bb8b6e5fcafa5d02, clickElement {id=f.8807AC901274A904BB46C512C32312E2.d.E501B83F41F6AE71FF9E805D08B82757.e.119}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51870/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c106adccb0f86935bb8b6e5fcafa5d02)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c106adccb0f86935bb8b6e5fcafa5d02\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:66)\r\n\tat pom.DeleteEmployee_Page.clickDeleteBtn(DeleteEmployee_Page.java:80)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:53)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+    "steps" : [ {
+      "name" : "When User open the URL from config",
+      "time" : {
+        "start" : 1755669255023,
+        "stop" : 1755669257145,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User Enters Email and password from config",
+      "time" : {
+        "start" : 1755669257148,
+        "stop" : 1755669257476,
+        "duration" : 328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Click on Login button.",
+      "time" : {
+        "start" : 1755669257476,
+        "stop" : 1755669257611,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Click on Employee icon and delete the employee",
+      "time" : {
+        "start" : 1755669257611,
+        "stop" : 1755669287012,
+        "duration" : 29401
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 51). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c106adccb0f86935bb8b6e5fcafa5d02, clickElement {id=f.8807AC901274A904BB46C512C32312E2.d.E501B83F41F6AE71FF9E805D08B82757.e.119}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51870/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c106adccb0f86935bb8b6e5fcafa5d02)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c106adccb0f86935bb8b6e5fcafa5d02",
+      "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 51). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c106adccb0f86935bb8b6e5fcafa5d02, clickElement {id=f.8807AC901274A904BB46C512C32312E2.d.E501B83F41F6AE71FF9E805D08B82757.e.119}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51870/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c106adccb0f86935bb8b6e5fcafa5d02)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c106adccb0f86935bb8b6e5fcafa5d02\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:66)\r\n\tat pom.DeleteEmployee_Page.clickDeleteBtn(DeleteEmployee_Page.java:80)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:53)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755669287016,
+      "stop" : 1755669287018,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-N461L09"
+  }, {
+    "name" : "thread",
+    "value" : "7664@DESKTOP-N461L09.TestNG-PoolService-1(38)"
+  }, {
+    "name" : "feature",
+    "value" : "Login Feature"
+  }, {
+    "name" : "story",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "suite",
+    "value" : "Login Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.deleteUser_feature.Login Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7b2603e54f43f51.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,184 @@
+{
+  "uid" : "571259bfd2919fea",
+  "name" : "Delete a  user",
+  "fullName" : "src/test/java/features/deleteUser.feature:4",
+  "historyId" : "4254f23a59ed33390c0a0d367c0ff796",
+  "time" : {
+    "start" : 1755608708920,
+    "stop" : 1755608742511,
+    "duration" : 33591
+  },
+  "description" : "  This feature is to login to the urbuddi portal.",
+  "descriptionHtml" : "<p>This feature is to login to the urbuddi portal.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8ad88eb856c8e8dad0ac65719d4977be, clickElement {id=f.1881D6E0E6C383F01DDD4979F3A50703.d.7DB30902F656DA21AF6A85D955F06B6A.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59380/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8ad88eb856c8e8dad0ac65719d4977be)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8ad88eb856c8e8dad0ac65719d4977be",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8ad88eb856c8e8dad0ac65719d4977be, clickElement {id=f.1881D6E0E6C383F01DDD4979F3A50703.d.7DB30902F656DA21AF6A85D955F06B6A.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59380/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8ad88eb856c8e8dad0ac65719d4977be)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8ad88eb856c8e8dad0ac65719d4977be\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:64)\r\n\tat pom.DeleteEmployee_Page.deleteEmployee(DeleteEmployee_Page.java:47)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:45)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755608708926,
+      "stop" : 1755608708935,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.driverIntialize()",
+    "time" : {
+      "start" : 1755608709039,
+      "stop" : 1755608710722,
+      "duration" : 1683
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "  This feature is to login to the urbuddi portal.",
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8ad88eb856c8e8dad0ac65719d4977be, clickElement {id=f.1881D6E0E6C383F01DDD4979F3A50703.d.7DB30902F656DA21AF6A85D955F06B6A.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59380/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8ad88eb856c8e8dad0ac65719d4977be)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8ad88eb856c8e8dad0ac65719d4977be",
+    "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8ad88eb856c8e8dad0ac65719d4977be, clickElement {id=f.1881D6E0E6C383F01DDD4979F3A50703.d.7DB30902F656DA21AF6A85D955F06B6A.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59380/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8ad88eb856c8e8dad0ac65719d4977be)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8ad88eb856c8e8dad0ac65719d4977be\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:64)\r\n\tat pom.DeleteEmployee_Page.deleteEmployee(DeleteEmployee_Page.java:47)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:45)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+    "steps" : [ {
+      "name" : "When User open the URL from config",
+      "time" : {
+        "start" : 1755608710728,
+        "stop" : 1755608711994,
+        "duration" : 1266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User Enters Email and password from config",
+      "time" : {
+        "start" : 1755608711995,
+        "stop" : 1755608712383,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Click on Login button.",
+      "time" : {
+        "start" : 1755608712383,
+        "stop" : 1755608712513,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Click on Employee icon and delete the employee",
+      "time" : {
+        "start" : 1755608712514,
+        "stop" : 1755608742502,
+        "duration" : 29988
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8ad88eb856c8e8dad0ac65719d4977be, clickElement {id=f.1881D6E0E6C383F01DDD4979F3A50703.d.7DB30902F656DA21AF6A85D955F06B6A.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59380/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8ad88eb856c8e8dad0ac65719d4977be)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8ad88eb856c8e8dad0ac65719d4977be",
+      "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8ad88eb856c8e8dad0ac65719d4977be, clickElement {id=f.1881D6E0E6C383F01DDD4979F3A50703.d.7DB30902F656DA21AF6A85D955F06B6A.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59380/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8ad88eb856c8e8dad0ac65719d4977be)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8ad88eb856c8e8dad0ac65719d4977be\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:64)\r\n\tat pom.DeleteEmployee_Page.deleteEmployee(DeleteEmployee_Page.java:47)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:45)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755608742506,
+      "stop" : 1755608742508,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-N461L09"
+  }, {
+    "name" : "thread",
+    "value" : "17688@DESKTOP-N461L09.TestNG-PoolService-1(38)"
+  }, {
+    "name" : "feature",
+    "value" : "Login Feature"
+  }, {
+    "name" : "story",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "suite",
+    "value" : "Login Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.deleteUser_feature.Login Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "571259bfd2919fea.json",
+  "parameterValues" : [ ]
+}

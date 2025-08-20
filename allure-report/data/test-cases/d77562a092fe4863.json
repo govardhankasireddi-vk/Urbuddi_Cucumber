@@ -1,0 +1,184 @@
+{
+  "uid" : "d77562a092fe4863",
+  "name" : "Delete a  user",
+  "fullName" : "src/test/java/features/deleteUser.feature:4",
+  "historyId" : "4254f23a59ed33390c0a0d367c0ff796",
+  "time" : {
+    "start" : 1755674045123,
+    "stop" : 1755674053349,
+    "duration" : 8226
+  },
+  "description" : "  This feature is to login to the urbuddi portal.",
+  "descriptionHtml" : "<p>This feature is to login to the urbuddi portal.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [815046b08467afce140ee627dfb830a3, isElementDisplayed {id=f.B6CF42A19A84FCA4828466F2C3921287.d.906F3B43A714435BA763219596A23A92.e.111}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55781/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (815046b08467afce140ee627dfb830a3)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 815046b08467afce140ee627dfb830a3",
+  "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [815046b08467afce140ee627dfb830a3, isElementDisplayed {id=f.B6CF42A19A84FCA4828466F2C3921287.d.906F3B43A714435BA763219596A23A92.e.111}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55781/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (815046b08467afce140ee627dfb830a3)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 815046b08467afce140ee627dfb830a3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)\r\n\tat Utilities.ElementUtils.visibilityOfElement(ElementUtils.java:25)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:63)\r\n\tat pom.DeleteEmployee_Page.deleteEmployee(DeleteEmployee_Page.java:60)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:47)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.driverIntialize()",
+    "time" : {
+      "start" : 1755674045131,
+      "stop" : 1755674046790,
+      "duration" : 1659
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755674046955,
+      "stop" : 1755674046956,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "  This feature is to login to the urbuddi portal.",
+    "status" : "broken",
+    "statusMessage" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [815046b08467afce140ee627dfb830a3, isElementDisplayed {id=f.B6CF42A19A84FCA4828466F2C3921287.d.906F3B43A714435BA763219596A23A92.e.111}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55781/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (815046b08467afce140ee627dfb830a3)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 815046b08467afce140ee627dfb830a3",
+    "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [815046b08467afce140ee627dfb830a3, isElementDisplayed {id=f.B6CF42A19A84FCA4828466F2C3921287.d.906F3B43A714435BA763219596A23A92.e.111}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55781/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (815046b08467afce140ee627dfb830a3)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 815046b08467afce140ee627dfb830a3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)\r\n\tat Utilities.ElementUtils.visibilityOfElement(ElementUtils.java:25)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:63)\r\n\tat pom.DeleteEmployee_Page.deleteEmployee(DeleteEmployee_Page.java:60)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:47)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+    "steps" : [ {
+      "name" : "When User open the URL from config",
+      "time" : {
+        "start" : 1755674046962,
+        "stop" : 1755674048495,
+        "duration" : 1533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User Enters Email and password from config",
+      "time" : {
+        "start" : 1755674048497,
+        "stop" : 1755674048927,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Click on Login button.",
+      "time" : {
+        "start" : 1755674048927,
+        "stop" : 1755674049111,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Click on Employee icon and delete the employee",
+      "time" : {
+        "start" : 1755674049111,
+        "stop" : 1755674053339,
+        "duration" : 4228
+      },
+      "status" : "broken",
+      "statusMessage" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [815046b08467afce140ee627dfb830a3, isElementDisplayed {id=f.B6CF42A19A84FCA4828466F2C3921287.d.906F3B43A714435BA763219596A23A92.e.111}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55781/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (815046b08467afce140ee627dfb830a3)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 815046b08467afce140ee627dfb830a3",
+      "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [815046b08467afce140ee627dfb830a3, isElementDisplayed {id=f.B6CF42A19A84FCA4828466F2C3921287.d.906F3B43A714435BA763219596A23A92.e.111}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55781/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (815046b08467afce140ee627dfb830a3)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 815046b08467afce140ee627dfb830a3\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)\r\n\tat Utilities.ElementUtils.visibilityOfElement(ElementUtils.java:25)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:63)\r\n\tat pom.DeleteEmployee_Page.deleteEmployee(DeleteEmployee_Page.java:60)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:47)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755674053343,
+      "stop" : 1755674053345,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-N461L09"
+  }, {
+    "name" : "thread",
+    "value" : "9920@DESKTOP-N461L09.TestNG-PoolService-1(38)"
+  }, {
+    "name" : "feature",
+    "value" : "Login Feature"
+  }, {
+    "name" : "story",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "suite",
+    "value" : "Login Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.deleteUser_feature.Login Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d77562a092fe4863.json",
+  "parameterValues" : [ ]
+}

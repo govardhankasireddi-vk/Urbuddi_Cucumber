@@ -1,0 +1,754 @@
+{
+  "uid" : "646d716dfe293c2f",
+  "name" : "Delete a  user",
+  "fullName" : "src/test/java/features/deleteUser.feature:4",
+  "historyId" : "4254f23a59ed33390c0a0d367c0ff796",
+  "time" : {
+    "start" : 1755682664093,
+    "stop" : 1755682675288,
+    "duration" : 11195
+  },
+  "description" : "  This feature is to login to the urbuddi portal.",
+  "descriptionHtml" : "<p>This feature is to login to the urbuddi portal.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9de72e51d12f9565fae5f355f70954e8, clickElement {id=f.A5F3F70921708BD71DAD40851CA875C1.d.862D2FFC707580B6F059E47E7BF98CA3.e.129}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9de72e51d12f9565fae5f355f70954e8)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 9de72e51d12f9565fae5f355f70954e8",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9de72e51d12f9565fae5f355f70954e8, clickElement {id=f.A5F3F70921708BD71DAD40851CA875C1.d.862D2FFC707580B6F059E47E7BF98CA3.e.129}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9de72e51d12f9565fae5f355f70954e8)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 9de72e51d12f9565fae5f355f70954e8\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy40.click(Unknown Source)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:66)\r\n\tat pom.DeleteEmployee_Page.clickDeleteBtn(DeleteEmployee_Page.java:92)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:51)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755682665904,
+      "stop" : 1755682665905,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.driverIntialize()",
+    "time" : {
+      "start" : 1755682664098,
+      "stop" : 1755682665767,
+      "duration" : 1669
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "  This feature is to login to the urbuddi portal.",
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9de72e51d12f9565fae5f355f70954e8, clickElement {id=f.A5F3F70921708BD71DAD40851CA875C1.d.862D2FFC707580B6F059E47E7BF98CA3.e.129}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9de72e51d12f9565fae5f355f70954e8)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 9de72e51d12f9565fae5f355f70954e8",
+    "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9de72e51d12f9565fae5f355f70954e8, clickElement {id=f.A5F3F70921708BD71DAD40851CA875C1.d.862D2FFC707580B6F059E47E7BF98CA3.e.129}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9de72e51d12f9565fae5f355f70954e8)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 9de72e51d12f9565fae5f355f70954e8\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy40.click(Unknown Source)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:66)\r\n\tat pom.DeleteEmployee_Page.clickDeleteBtn(DeleteEmployee_Page.java:92)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:51)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+    "steps" : [ {
+      "name" : "When User open the URL from config",
+      "time" : {
+        "start" : 1755682665911,
+        "stop" : 1755682667210,
+        "duration" : 1299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User Enters Email and password from config",
+      "time" : {
+        "start" : 1755682667212,
+        "stop" : 1755682667628,
+        "duration" : 416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Click on Login button.",
+      "time" : {
+        "start" : 1755682667628,
+        "stop" : 1755682667809,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Click on Employee icon and delete the employee",
+      "time" : {
+        "start" : 1755682667809,
+        "stop" : 1755682675173,
+        "duration" : 7364
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9de72e51d12f9565fae5f355f70954e8, clickElement {id=f.A5F3F70921708BD71DAD40851CA875C1.d.862D2FFC707580B6F059E47E7BF98CA3.e.129}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9de72e51d12f9565fae5f355f70954e8)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 9de72e51d12f9565fae5f355f70954e8",
+      "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9de72e51d12f9565fae5f355f70954e8, clickElement {id=f.A5F3F70921708BD71DAD40851CA875C1.d.862D2FFC707580B6F059E47E7BF98CA3.e.129}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9de72e51d12f9565fae5f355f70954e8)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 9de72e51d12f9565fae5f355f70954e8\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy40.click(Unknown Source)\r\n\tat Utilities.ElementUtils.click(ElementUtils.java:66)\r\n\tat pom.DeleteEmployee_Page.clickDeleteBtn(DeleteEmployee_Page.java:92)\r\n\tat stepDefinitions.DeleteStep.clickOnEmployeeIconAndDeleteTheEmployee(DeleteStep.java:51)\r\n\tat ✽.Click on Employee icon and delete the employee(file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature:8)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755682675178,
+      "stop" : 1755682675284,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3da317638d6a9833",
+      "name" : "Failure Screenshot",
+      "source" : "3da317638d6a9833.png",
+      "type" : "image/png",
+      "size" : 82076
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-N461L09"
+  }, {
+    "name" : "thread",
+    "value" : "16568@DESKTOP-N461L09.TestNG-PoolService-1(38)"
+  }, {
+    "name" : "feature",
+    "value" : "Login Feature"
+  }, {
+    "name" : "story",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "suite",
+    "value" : "Login Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete a  user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/deleteUser.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.deleteUser_feature.Login Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "afa21eaba3654f4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755681700311,
+        "stop" : 1755681710658,
+        "duration" : 10347
+      }
+    }, {
+      "uid" : "3dfb35da82cffe69",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [19c837ae0778ec2bd7b2acdcede832d9, findElements {using=xpath, value=//div[@class='ag-selection-checkbox']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59961/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 19c837ae0778ec2bd7b2acdcede832d9",
+      "time" : {
+        "start" : 1755677398988,
+        "stop" : 1755677413207,
+        "duration" : 14219
+      }
+    }, {
+      "uid" : "b7fca6982d04e7b7",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //div[@role ='row'][@row-index='0']//div[@aria-colindex='6' because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@role ='row'][@row-index='0']//div[@aria-colindex='6'' is not a valid XPath expression.\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4629a7a8ad4ee39bbe3155d2f340509c, findElement {value=//div[@role ='row'][@row-index='0']//div[@aria-colindex='6', using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59621/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4629a7a8ad4ee39bbe3155d2f340509c",
+      "time" : {
+        "start" : 1755677190121,
+        "stop" : 1755677200454,
+        "duration" : 10333
+      }
+    }, {
+      "uid" : "9d4c3c037c06e7e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@class = 'deleteIcon']' (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1755676925741,
+        "stop" : 1755676944763,
+        "duration" : 19022
+      }
+    }, {
+      "uid" : "ac744194aeb51b64",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@class = 'deleteIcon']' (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1755676633730,
+        "stop" : 1755676652543,
+        "duration" : 18813
+      }
+    }, {
+      "uid" : "d77562a092fe4863",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [815046b08467afce140ee627dfb830a3, isElementDisplayed {id=f.B6CF42A19A84FCA4828466F2C3921287.d.906F3B43A714435BA763219596A23A92.e.111}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55781/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (815046b08467afce140ee627dfb830a3)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 815046b08467afce140ee627dfb830a3",
+      "time" : {
+        "start" : 1755674045123,
+        "stop" : 1755674053349,
+        "duration" : 8226
+      }
+    }, {
+      "uid" : "3f1b2af9b5b28566",
+      "status" : "broken",
+      "statusDetails" : "Index 18 out of bounds for length 18",
+      "time" : {
+        "start" : 1755673372200,
+        "stop" : 1755673383597,
+        "duration" : 11397
+      }
+    }, {
+      "uid" : "6c7a4d0cd9e83efc",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [02faa537e644dcccbd8f1d3d2fd31906, clickElement {id=f.21312ECE3F126950CC4A628716A9AF85.d.8B9F005A9854A03F63B170F5A3F92E73.e.126}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52085}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52085/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (02faa537e644dcccbd8f1d3d2fd31906)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 02faa537e644dcccbd8f1d3d2fd31906",
+      "time" : {
+        "start" : 1755669481435,
+        "stop" : 1755669507899,
+        "duration" : 26464
+      }
+    }, {
+      "uid" : "aa4db0a5841e0ba8",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [16ba728bf373e2934af0b7998bb859a3, clickElement {id=f.B8F9E15FA545DECC543CD9A1574D999E.d.AC7342543EF9D8A39D5E445B227313D4.e.126}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (16ba728bf373e2934af0b7998bb859a3)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 16ba728bf373e2934af0b7998bb859a3",
+      "time" : {
+        "start" : 1755669399347,
+        "stop" : 1755669424557,
+        "duration" : 25210
+      }
+    }, {
+      "uid" : "e7b2603e54f43f51",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (548, 51). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c106adccb0f86935bb8b6e5fcafa5d02, clickElement {id=f.8807AC901274A904BB46C512C32312E2.d.E501B83F41F6AE71FF9E805D08B82757.e.119}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51870/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c106adccb0f86935bb8b6e5fcafa5d02)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c106adccb0f86935bb8b6e5fcafa5d02",
+      "time" : {
+        "start" : 1755669253364,
+        "stop" : 1755669287021,
+        "duration" : 33657
+      }
+    }, {
+      "uid" : "e0910fcad4273469",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b4676f071d49e149dd315c6ab9006580, clickElement {id=f.393E716573B38B753AD23C1A21D7F4FB.d.AAFF75A7B55B35B853A2E6477FDC0ADA.e.157}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51694/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (b4676f071d49e149dd315c6ab9006580)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: b4676f071d49e149dd315c6ab9006580",
+      "time" : {
+        "start" : 1755669038886,
+        "stop" : 1755669078011,
+        "duration" : 39125
+      }
+    }, {
+      "uid" : "efdff4ff54f8d670",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f899cdac3c07ea4c36788b5be6fb95ec, clickElement {id=f.F8C6F27EFE27B8C2BCB7DD3EF00F575C.d.CC49D247C041E9876A2DB7DBAF0DB3E9.e.153}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62791}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62791/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (f899cdac3c07ea4c36788b5be6fb95ec)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: f899cdac3c07ea4c36788b5be6fb95ec",
+      "time" : {
+        "start" : 1755615594931,
+        "stop" : 1755615629109,
+        "duration" : 34178
+      }
+    }, {
+      "uid" : "cb265aac92b8b43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755615446799,
+        "stop" : 1755615477504,
+        "duration" : 30705
+      }
+    }, {
+      "uid" : "e6aba7525fc30309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755614468027,
+        "stop" : 1755614496825,
+        "duration" : 28798
+      }
+    }, {
+      "uid" : "b78c7f6d01fdc16",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4e8e082792b4d870c3cd434c413b292b, clickElement {id=f.DB10EBE8EEAC64D09C32477B2CE17CD6.d.6CAEDD2008B9DD61B9E2F594800493C1.e.124}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61999/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (4e8e082792b4d870c3cd434c413b292b)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 4e8e082792b4d870c3cd434c413b292b",
+      "time" : {
+        "start" : 1755614380731,
+        "stop" : 1755614403384,
+        "duration" : 22653
+      }
+    }, {
+      "uid" : "e5afc2a77c641ab3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755613861469,
+        "stop" : 1755613882575,
+        "duration" : 21106
+      }
+    }, {
+      "uid" : "cec7a111ec2294ec",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 54). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a4b22e7c5d30a2a1526406194a6307da, clickElement {id=f.EC45D2A4E5B9B2517D49630E93630A5A.d.64D805D57B6123532C38226DBF9CBC7C.e.121}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61586/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (a4b22e7c5d30a2a1526406194a6307da)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: a4b22e7c5d30a2a1526406194a6307da",
+      "time" : {
+        "start" : 1755612687776,
+        "stop" : 1755612704154,
+        "duration" : 16378
+      }
+    }, {
+      "uid" : "581494bb0fd136e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755612587227,
+        "stop" : 1755612669838,
+        "duration" : 82611
+      }
+    }, {
+      "uid" : "697190d375b24c0a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[contains(@aria-label,'NAME')]' (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1755612556269,
+        "stop" : 1755612573362,
+        "duration" : 17093
+      }
+    }, {
+      "uid" : "8e3fc9c7dcffecc7",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b90fee9d5df56892dd1b44271f6429fe, clickElement {id=f.30EEB006A4BC2AF4CBB9875DC1F59B79.d.1A8DCD23FD1B556BCDC96E7072373330.e.126}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61384}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61384/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (b90fee9d5df56892dd1b44271f6429fe)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: b90fee9d5df56892dd1b44271f6429fe",
+      "time" : {
+        "start" : 1755612438294,
+        "stop" : 1755612462539,
+        "duration" : 24245
+      }
+    }, {
+      "uid" : "640f135e34efcd4c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (84a0c30ecd49cf65ac06b46defa52bbb)] -> xpath: //div[@class='ag-selection-checkbox']//input[@type='checkbox']] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61255/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 84a0c30ecd49cf65ac06b46defa52bbb",
+      "time" : {
+        "start" : 1755612264503,
+        "stop" : 1755612285891,
+        "duration" : 21388
+      }
+    }, {
+      "uid" : "3f516fd0c1703a5",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ccad1eb35c9038c7aa4092ecf3b4bc02, isElementDisplayed {id=f.FF77D97EB21282504E2D42FE0E805CCB.d.369A62FC0CDE7BA225827AF5F4E954CF.e.68}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61198/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (ccad1eb35c9038c7aa4092ecf3b4bc02)] -> xpath: //div[@class='ag-selection-checkbox']//input[@type='checkbox']]\nSession ID: ccad1eb35c9038c7aa4092ecf3b4bc02",
+      "time" : {
+        "start" : 1755612206238,
+        "stop" : 1755612212898,
+        "duration" : 6660
+      }
+    }, {
+      "uid" : "ee1dd72f641d8ce4",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2db1a6d97d2c77fa27618e3096f87a10, isElementDisplayed {id=f.E58D079C488F3D3FDC47DD4137123000.d.F438048AD1C3C7F66CA71EAA84B3CBDE.e.70}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61128/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (2db1a6d97d2c77fa27618e3096f87a10)] -> xpath: //div[@class='ag-selection-checkbox']//input[@type='checkbox']]\nSession ID: 2db1a6d97d2c77fa27618e3096f87a10",
+      "time" : {
+        "start" : 1755612135366,
+        "stop" : 1755612141726,
+        "duration" : 6360
+      }
+    }, {
+      "uid" : "f4df87f8efa5bee2",
+      "status" : "broken",
+      "statusDetails" : "invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: not connected to DevTools\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d114d71c828407a9e2a13f4e9e542c63, findElements {using=xpath, value=//div[@class='ag-selection-checkbox']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60881}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60881/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d114d71c828407a9e2a13f4e9e542c63",
+      "time" : {
+        "start" : 1755611721698,
+        "stop" : 1755611748412,
+        "duration" : 26714
+      }
+    }, {
+      "uid" : "42170832915e9966",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1ac29d52946f7e1e63c1dbf4980cad23, clickElement {id=f.8E8000E4597AE2F19B3E09312B06F3EB.d.47764E14CAAF05AA70E8BD66E9A60388.e.154}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60830/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (1ac29d52946f7e1e63c1dbf4980cad23)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 1ac29d52946f7e1e63c1dbf4980cad23",
+      "time" : {
+        "start" : 1755611667213,
+        "stop" : 1755611673622,
+        "duration" : 6409
+      }
+    }, {
+      "uid" : "f10b57d0d5c82fa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755611082017,
+        "stop" : 1755611125958,
+        "duration" : 43941
+      }
+    }, {
+      "uid" : "8572352ac8521ad9",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a41d112e4cb060ade04e2acb1ff0afff, clickElement {id=f.B99852BD8A55D8590469C9475536A1CD.d.D4EFC475F9543B1A0AF5D280574822B5.e.105}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60392/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (a41d112e4cb060ade04e2acb1ff0afff)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: a41d112e4cb060ade04e2acb1ff0afff",
+      "time" : {
+        "start" : 1755610779851,
+        "stop" : 1755610825562,
+        "duration" : 45711
+      }
+    }, {
+      "uid" : "58a65a031fd45f29",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [476044da323f563a1eafa0640095a4d7, clickElement {id=f.E2CA11652AE5C8AC9F5598640754CAF5.d.1C2A48611D555F5A9A980DCDCB8EF89F.e.105}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60256/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (476044da323f563a1eafa0640095a4d7)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 476044da323f563a1eafa0640095a4d7",
+      "time" : {
+        "start" : 1755610589772,
+        "stop" : 1755610634743,
+        "duration" : 44971
+      }
+    }, {
+      "uid" : "1f315583224d7e7a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c103e4fb85a18c2c4e5196d12d88a94d, clickElement {id=f.E9485F14DE5C70925CCDD8D9CB867529.d.07644DB5AB0A38F841DA67A5605C7072.e.100}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60157/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c103e4fb85a18c2c4e5196d12d88a94d)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: c103e4fb85a18c2c4e5196d12d88a94d",
+      "time" : {
+        "start" : 1755610283156,
+        "stop" : 1755610327444,
+        "duration" : 44288
+      }
+    }, {
+      "uid" : "dba025f166913572",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cf7131eae70cd046c70f48141b91f1ac, clickElement {id=f.7DAA7C880C7E6B620DE5590EE85A96F3.d.7EE505B75B38309C59167EC5CB18E22A.e.104}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60089/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (cf7131eae70cd046c70f48141b91f1ac)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: cf7131eae70cd046c70f48141b91f1ac",
+      "time" : {
+        "start" : 1755610007514,
+        "stop" : 1755610106335,
+        "duration" : 98821
+      }
+    }, {
+      "uid" : "66020bea7937e503",
+      "status" : "broken",
+      "statusDetails" : "Index 18 out of bounds for length 18",
+      "time" : {
+        "start" : 1755609818457,
+        "stop" : 1755609916318,
+        "duration" : 97861
+      }
+    }, {
+      "uid" : "82101b6288d0e844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755609641740,
+        "stop" : 1755609739502,
+        "duration" : 97762
+      }
+    }, {
+      "uid" : "ed9753879ebe8a49",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@class = 'deleteIcon']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1755609321779,
+        "stop" : 1755609423564,
+        "duration" : 101785
+      }
+    }, {
+      "uid" : "6298150f647c6b24",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 622)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7363ed21c6901894a0f9476762deeb6d, clickElement {id=f.43F59AD4BAA017D6971700B955CB9F6C.d.31E7F0141499A577B1B2E21C4B44868A.e.361}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59640/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (7363ed21c6901894a0f9476762deeb6d)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 7363ed21c6901894a0f9476762deeb6d",
+      "time" : {
+        "start" : 1755609093916,
+        "stop" : 1755609131269,
+        "duration" : 37353
+      }
+    }, {
+      "uid" : "2aa60a3b233374bd",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 617)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [67d80b0da0c227b57d95056abe683c68, clickElement {id=f.A4698E495AF722F224226154D938CAAE.d.CB13A2E13FC7BEF2E1849DA30B1E5978.e.324}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59573/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (67d80b0da0c227b57d95056abe683c68)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 67d80b0da0c227b57d95056abe683c68",
+      "time" : {
+        "start" : 1755609032844,
+        "stop" : 1755609065579,
+        "duration" : 32735
+      }
+    }, {
+      "uid" : "96855ab69105180d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 617)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [eeb0a233f74e421069c14977de070412, clickElement {id=f.172E223C1374AB8555148D6A136031AC.d.D4C9BC44BEB9BA50A9DC2DB7468202BC.e.324}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59510/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (eeb0a233f74e421069c14977de070412)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: eeb0a233f74e421069c14977de070412",
+      "time" : {
+        "start" : 1755608961626,
+        "stop" : 1755608994030,
+        "duration" : 32404
+      }
+    }, {
+      "uid" : "dba46bd5bf942e6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755608821107,
+        "stop" : 1755608923989,
+        "duration" : 102882
+      }
+    }, {
+      "uid" : "571259bfd2919fea",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8ad88eb856c8e8dad0ac65719d4977be, clickElement {id=f.1881D6E0E6C383F01DDD4979F3A50703.d.7DB30902F656DA21AF6A85D955F06B6A.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59380/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8ad88eb856c8e8dad0ac65719d4977be)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8ad88eb856c8e8dad0ac65719d4977be",
+      "time" : {
+        "start" : 1755608708920,
+        "stop" : 1755608742511,
+        "duration" : 33591
+      }
+    }, {
+      "uid" : "f5142ce173863a13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755608545581,
+        "stop" : 1755608650771,
+        "duration" : 105190
+      }
+    }, {
+      "uid" : "505552d66e2f21f6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 617)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6ff05bdff9d06ed66042171b3e5e563e, clickElement {id=f.8E47A0241FA67A01F8CCACED240F0A3A.d.A05A8650DE44AD72FFEEFD8757A4CEB2.e.327}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59233/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (6ff05bdff9d06ed66042171b3e5e563e)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 6ff05bdff9d06ed66042171b3e5e563e",
+      "time" : {
+        "start" : 1755608138493,
+        "stop" : 1755608196738,
+        "duration" : 58245
+      }
+    }, {
+      "uid" : "d73dc0ab747189db",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8300b6bf5befd60b15e62f469816ac8d, isElementDisplayed {id=f.47D3A7D9BB458CD2C49EE4FDF42FDD0E.d.542B49F6BFFB3570543ED1A986BC379F.e.87}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59178/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (8300b6bf5befd60b15e62f469816ac8d)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 8300b6bf5befd60b15e62f469816ac8d",
+      "time" : {
+        "start" : 1755608081847,
+        "stop" : 1755608100435,
+        "duration" : 18588
+      }
+    }, {
+      "uid" : "862ce368c212ad6a",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0b010f5590bee37e52b3e772a37c7008, isElementDisplayed {id=f.F89C168D2D4CD6FB83BD44D65F8FA47B.d.D263C5641110E616F17E2CB76B4366D2.e.88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59116}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59116/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (0b010f5590bee37e52b3e772a37c7008)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 0b010f5590bee37e52b3e772a37c7008",
+      "time" : {
+        "start" : 1755608001511,
+        "stop" : 1755608012163,
+        "duration" : 10652
+      }
+    }, {
+      "uid" : "da4d80c1ed7d96cf",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c395b52547788e7b77da91f58aba6426, isElementDisplayed {id=f.03023C0FD2058EFFF1F6B60FA12783EA.d.007A630218AD714FF22C838207395CCA.e.148}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59063/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c395b52547788e7b77da91f58aba6426)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: c395b52547788e7b77da91f58aba6426",
+      "time" : {
+        "start" : 1755607959483,
+        "stop" : 1755607965592,
+        "duration" : 6109
+      }
+    }, {
+      "uid" : "affa570955ddbb4a",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dc76a5effc61b6663d1feb9d4bb51b02, isElementDisplayed {id=f.59AF04ED2578996F61429F8BCFB2E052.d.B376557A99CFDFC651FCB7C907E12D12.e.152}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (dc76a5effc61b6663d1feb9d4bb51b02)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: dc76a5effc61b6663d1feb9d4bb51b02",
+      "time" : {
+        "start" : 1755607900718,
+        "stop" : 1755607906870,
+        "duration" : 6152
+      }
+    }, {
+      "uid" : "dda8890b24fe9280",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [79d4c6253c7ca25891976a7a8e855da0, isElementDisplayed {id=f.CA6C89805D11610DCA785EE69FCE37F7.d.B7C9D79C32C8C509A4E4474A2375401D.e.89}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58924/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (79d4c6253c7ca25891976a7a8e855da0)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 79d4c6253c7ca25891976a7a8e855da0",
+      "time" : {
+        "start" : 1755607767085,
+        "stop" : 1755607776156,
+        "duration" : 9071
+      }
+    }, {
+      "uid" : "7e4ad7c1ef206d25",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0c4fefaccfe96199be2fdd9db67a8863, isElementDisplayed {id=f.ED2A18839A485864B23E32DE7CBB0AEF.d.6611A2EB5F6BA1FB4CAB271493FA8FD2.e.88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58863/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (0c4fefaccfe96199be2fdd9db67a8863)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 0c4fefaccfe96199be2fdd9db67a8863",
+      "time" : {
+        "start" : 1755607702007,
+        "stop" : 1755607709949,
+        "duration" : 7942
+      }
+    }, {
+      "uid" : "a5728163c75f7039",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [37f633f3190b9e9a65055c38c4c1d91f, isElementDisplayed {id=f.A85E6A1DF441DC99F1C0BEBB377F2D00.d.770FFEAC758978D9C551C02CF9C4FDA3.e.88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58813/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (37f633f3190b9e9a65055c38c4c1d91f)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 37f633f3190b9e9a65055c38c4c1d91f",
+      "time" : {
+        "start" : 1755607653501,
+        "stop" : 1755607661079,
+        "duration" : 7578
+      }
+    }, {
+      "uid" : "6dc80dbef2514230",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 593)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4454606b4eadec4c89fef507e93564cc, clickElement {id=f.C59B7698B50F9E2832B10C20E2D6C5E6.d.759737EB8E1697ACA1B745E8522AA6E9.e.574}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58736}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58736/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (4454606b4eadec4c89fef507e93564cc)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 4454606b4eadec4c89fef507e93564cc",
+      "time" : {
+        "start" : 1755607210376,
+        "stop" : 1755607603564,
+        "duration" : 393188
+      }
+    }, {
+      "uid" : "3cbea31fae368ae0",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [45006cbd0485b7429172c381ac6bf6da, isElementDisplayed {id=f.51255E4B67E352F154BF531BBB964399.d.AA5264880CC36E069C3EA655351E7CB2.e.88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58621/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (45006cbd0485b7429172c381ac6bf6da)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 45006cbd0485b7429172c381ac6bf6da",
+      "time" : {
+        "start" : 1755606934641,
+        "stop" : 1755607024028,
+        "duration" : 89387
+      }
+    }, {
+      "uid" : "d3298a21ad553a25",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [098488c251c9244aeb0cfb426899b528, isElementDisplayed {id=f.1F97C09821F4A7BB73C6FC396954EFA3.d.BB4E388F696289050BE5D3239B2D72ED.e.88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58569/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (098488c251c9244aeb0cfb426899b528)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 098488c251c9244aeb0cfb426899b528",
+      "time" : {
+        "start" : 1755606845609,
+        "stop" : 1755606919686,
+        "duration" : 74077
+      }
+    }, {
+      "uid" : "d62f546c4da42948",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 617)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [83b6a58cebd0a2c29a0bb7e3de3204ab, clickElement {id=f.6DBC91E575BE84397E2C78E963BC64DD.d.91F2F9DCBA3E2E31CC423E0762307F1C.e.293}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58509/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (83b6a58cebd0a2c29a0bb7e3de3204ab)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 83b6a58cebd0a2c29a0bb7e3de3204ab",
+      "time" : {
+        "start" : 1755606730352,
+        "stop" : 1755606739543,
+        "duration" : 9191
+      }
+    }, {
+      "uid" : "90a80e34d1bc23ca",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3dacac8b1ec41b6fec46ae1ff6cb2ffa, clickElement {id=f.92EF33BB9F3B2547B440F7404F1956FB.d.9B1745E43FD1480A9641E13AD507AEF8.e.151}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58444/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (3dacac8b1ec41b6fec46ae1ff6cb2ffa)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 3dacac8b1ec41b6fec46ae1ff6cb2ffa",
+      "time" : {
+        "start" : 1755606488101,
+        "stop" : 1755606494079,
+        "duration" : 5978
+      }
+    }, {
+      "uid" : "e9dede3b84cd622b",
+      "status" : "broken",
+      "statusDetails" : "class jdk.proxy2.$Proxy39 cannot be cast to class org.openqa.selenium.WebElement (jdk.proxy2.$Proxy39 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.WebElement is in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1755606382059,
+        "stop" : 1755606387613,
+        "duration" : 5554
+      }
+    }, {
+      "uid" : "e130743b07d89689",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [450e1ce790ad5d79dad6ef5b4db9a240, isElementDisplayed {id=f.F6ED981C4E4684DDA184EFA829EFAA80.d.A19743DC7077BB86CACB6F8AC5CEB9AC.e.152}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58340}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58340/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (450e1ce790ad5d79dad6ef5b4db9a240)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 450e1ce790ad5d79dad6ef5b4db9a240",
+      "time" : {
+        "start" : 1755606293386,
+        "stop" : 1755606299459,
+        "duration" : 6073
+      }
+    }, {
+      "uid" : "dfb1ad30150b79c9",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 617)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [155ffb8504d83ac5af83671efd77780b, clickElement {id=f.03BA8CF0250568579CCDE92E8E2E901D.d.D0864F36605985F12F35CA62B354722A.e.292}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58282/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (155ffb8504d83ac5af83671efd77780b)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 155ffb8504d83ac5af83671efd77780b",
+      "time" : {
+        "start" : 1755606175572,
+        "stop" : 1755606184172,
+        "duration" : 8600
+      }
+    }, {
+      "uid" : "fec50da3aaa4ec7d",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 617)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4a417004823f8f6d93f9de87da4f1ec1, clickElement {id=f.29783B22371CF25EB66CDCF908D8A6E4.d.8DAFEC2ADE73085208FBB925C2E601FD.e.315}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58224/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (4a417004823f8f6d93f9de87da4f1ec1)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 4a417004823f8f6d93f9de87da4f1ec1",
+      "time" : {
+        "start" : 1755605936878,
+        "stop" : 1755605945525,
+        "duration" : 8647
+      }
+    }, {
+      "uid" : "de700c0d69bf969d",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c338151e8952370e4aecca4220213af5, isElementDisplayed {id=f.0B210EED837211316741290A11FDF3C6.d.B57A12655BDC1E58B23A10F4F645B8E6.e.150}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58180/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (c338151e8952370e4aecca4220213af5)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: c338151e8952370e4aecca4220213af5",
+      "time" : {
+        "start" : 1755605835566,
+        "stop" : 1755605841869,
+        "duration" : 6303
+      }
+    }, {
+      "uid" : "6515cfccc6d0fa3f",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [bc49cd3cbc259fc489516abe08ea64dc, clickElement {id=f.7E455330F29675A45B148557628DF1CF.d.7BA3A50DD2B3B69C438050D89845C886.e.312}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58133/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (bc49cd3cbc259fc489516abe08ea64dc)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: bc49cd3cbc259fc489516abe08ea64dc",
+      "time" : {
+        "start" : 1755605702111,
+        "stop" : 1755605710911,
+        "duration" : 8800
+      }
+    }, {
+      "uid" : "9748433ef50560ac",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a3f0a5836b80ab5b889d1bb3317f7273, clickElement {id=f.E39012E927E285E01879E35D75818862.d.3CFD537A47BAC16056582D980D64E531.e.146}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58058/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (a3f0a5836b80ab5b889d1bb3317f7273)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: a3f0a5836b80ab5b889d1bb3317f7273",
+      "time" : {
+        "start" : 1755605412517,
+        "stop" : 1755605420271,
+        "duration" : 7754
+      }
+    }, {
+      "uid" : "8990f4cf985d2413",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (331, 615)\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e193e390b84e5922ca33e6c2edf0cdd0, clickElement {id=f.40C62BAA12F746020C6938AF375BED2D.d.B31BA59F35CCE672EFAB887D1230B874.e.278}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58014/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (e193e390b84e5922ca33e6c2edf0cdd0)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: e193e390b84e5922ca33e6c2edf0cdd0",
+      "time" : {
+        "start" : 1755605334049,
+        "stop" : 1755605342551,
+        "duration" : 8502
+      }
+    }, {
+      "uid" : "839f9f2f208500cd",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [64f86575177f4764a47a3f9fc9c8fa7e, clickElement {id=f.54744B6DA90F719A253C09DD2B1EFAB5.d.3A34A0FF8982C4B0C6F1ECD2D0D518E2.e.193}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57916}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57916/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (64f86575177f4764a47a3f9fc9c8fa7e)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: 64f86575177f4764a47a3f9fc9c8fa7e",
+      "time" : {
+        "start" : 1755604648899,
+        "stop" : 1755604655234,
+        "duration" : 6335
+      }
+    }, {
+      "uid" : "fa19512cda8dc76",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=139.0.7258.67)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a0e23a68c5f9e85a017ab1aad10d9105, clickElement {id=f.9D54CEEA5C0B43E8C7F5BA3A1DEF9502.d.4C204623B2477334C3C52BC0A113384B.e.150}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57795/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (a0e23a68c5f9e85a017ab1aad10d9105)] -> xpath: //div[@class='ag-selection-checkbox']]\nSession ID: a0e23a68c5f9e85a017ab1aad10d9105",
+      "time" : {
+        "start" : 1755604126063,
+        "stop" : 1755604132436,
+        "duration" : 6373
+      }
+    }, {
+      "uid" : "d573736acb22c98b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[contains(@aria-label,'NAME')]' (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1755604076379,
+        "stop" : 1755604090762,
+        "duration" : 14383
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "646d716dfe293c2f.json",
+  "parameterValues" : [ ]
+}

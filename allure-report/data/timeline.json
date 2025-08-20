@@ -1,0 +1,1756 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-N461L09",
+    "children" : [ {
+      "name" : "19316@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "aa4db0a5841e0ba8",
+        "parentUid" : "ad643dc11412b3361642622a82c8503c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755669399347,
+          "stop" : 1755669424557,
+          "duration" : 25210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad643dc11412b3361642622a82c8503c"
+    }, {
+      "name" : "7588@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "de700c0d69bf969d",
+        "parentUid" : "e3e6f26d8c80d975ce9fa361fe97a3a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755605835566,
+          "stop" : 1755605841869,
+          "duration" : 6303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3e6f26d8c80d975ce9fa361fe97a3a8"
+    }, {
+      "name" : "6720@DESKTOP-N461L09.main(3)",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "54fa16a8f91490c5",
+        "parentUid" : "f048125b8d0eded79d4e10adf8b78103",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755529523911,
+          "stop" : 1755529523914,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f048125b8d0eded79d4e10adf8b78103"
+    }, {
+      "name" : "15696@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "cec7a111ec2294ec",
+        "parentUid" : "d259e90b0212c35afb07c85eac38d807",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755612687776,
+          "stop" : 1755612704154,
+          "duration" : 16378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d259e90b0212c35afb07c85eac38d807"
+    }, {
+      "name" : "3272@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "8e3fc9c7dcffecc7",
+        "parentUid" : "6f1e3e5288e903025ebb8f87aee14448",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755612438294,
+          "stop" : 1755612462539,
+          "duration" : 24245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f1e3e5288e903025ebb8f87aee14448"
+    }, {
+      "name" : "13496@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "3e7bd60cb1a455ee",
+        "parentUid" : "1a8ad83d20bae592c56cb7351d51ecc3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1755592959923,
+          "stop" : 1755592959975,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "1a8ad83d20bae592c56cb7351d51ecc3"
+    }, {
+      "name" : "15756@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "fa19512cda8dc76",
+        "parentUid" : "fc46da272f587494924c8b6af402a2c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755604126063,
+          "stop" : 1755604132436,
+          "duration" : 6373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc46da272f587494924c8b6af402a2c9"
+    }, {
+      "name" : "13640@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "e4d712a5de8dc89d",
+        "parentUid" : "f7565ae679c22bce8499244938b0b040",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755593470415,
+          "stop" : 1755593502544,
+          "duration" : 32129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7565ae679c22bce8499244938b0b040"
+    }, {
+      "name" : "20012@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "82101b6288d0e844",
+        "parentUid" : "afbd40b7682dc76da531073d200e0e29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755609641740,
+          "stop" : 1755609739502,
+          "duration" : 97762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "afbd40b7682dc76da531073d200e0e29"
+    }, {
+      "name" : "14112@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "9248345610a23638",
+        "parentUid" : "536b945d09c98bb2e033b35907d94171",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755594617547,
+          "stop" : 1755594623983,
+          "duration" : 6436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "536b945d09c98bb2e033b35907d94171"
+    }, {
+      "name" : "12364@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "fec50da3aaa4ec7d",
+        "parentUid" : "1901e6a2c0c0343e2ae3863bcd4e03d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755605936878,
+          "stop" : 1755605945525,
+          "duration" : 8647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete a  user",
+        "uid" : "affa570955ddbb4a",
+        "parentUid" : "1901e6a2c0c0343e2ae3863bcd4e03d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755607900718,
+          "stop" : 1755607906870,
+          "duration" : 6152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1901e6a2c0c0343e2ae3863bcd4e03d3"
+    }, {
+      "name" : "9964@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "6298150f647c6b24",
+        "parentUid" : "640106bad57e0d5bec667e0db5978d4b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755609093916,
+          "stop" : 1755609131269,
+          "duration" : 37353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "640106bad57e0d5bec667e0db5978d4b"
+    }, {
+      "name" : "12732@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "37270571a2965198",
+        "parentUid" : "9e44215050b6b6747718d0e871dbce5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755592680257,
+          "stop" : 1755592685372,
+          "duration" : 5115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "9e44215050b6b6747718d0e871dbce5a"
+    }, {
+      "name" : "15796@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "1f315583224d7e7a",
+        "parentUid" : "f115d1d230bc66c9529ca295a2bdf265",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755610283156,
+          "stop" : 1755610327444,
+          "duration" : 44288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f115d1d230bc66c9529ca295a2bdf265"
+    }, {
+      "name" : "13296@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "6145a9335c7ccd2e",
+        "parentUid" : "61996f2a85e06e19202da2535d998e6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755595243092,
+          "stop" : 1755595249331,
+          "duration" : 6239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "61996f2a85e06e19202da2535d998e6b"
+    }, {
+      "name" : "8104@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "6515cfccc6d0fa3f",
+        "parentUid" : "2492cb13dc66a80c1d7a4f183b695be7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755605702111,
+          "stop" : 1755605710911,
+          "duration" : 8800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2492cb13dc66a80c1d7a4f183b695be7"
+    }, {
+      "name" : "13972@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "74d2af8b7cbe8380",
+        "parentUid" : "348a26a8d914941dfb8dd4b6e005e529",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755583510755,
+          "stop" : 1755583540760,
+          "duration" : 30005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "348a26a8d914941dfb8dd4b6e005e529"
+    }, {
+      "name" : "19540@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "66020bea7937e503",
+        "parentUid" : "3dc1880b772fb3997fa5ae590f44a0d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755609818457,
+          "stop" : 1755609916318,
+          "duration" : 97861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3dc1880b772fb3997fa5ae590f44a0d8"
+    }, {
+      "name" : "12004@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "d573736acb22c98b",
+        "parentUid" : "8019b0a51472a1fbfce390f5c15a7230",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755604076379,
+          "stop" : 1755604090762,
+          "duration" : 14383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8019b0a51472a1fbfce390f5c15a7230"
+    }, {
+      "name" : "12508@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "210882b30af957c8",
+        "parentUid" : "f67253e069e2db2a7825b1f52e74375a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1755596332659,
+          "stop" : 1755596349982,
+          "duration" : 17323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f67253e069e2db2a7825b1f52e74375a"
+    }, {
+      "name" : "13364@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "44de3c9e747aa48c",
+        "parentUid" : "94861114c563e163f2588b3599afa706",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755594506536,
+          "stop" : 1755594512007,
+          "duration" : 5471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "94861114c563e163f2588b3599afa706"
+    }, {
+      "name" : "7144@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "96855ab69105180d",
+        "parentUid" : "5e63fa9c39eb658f88e9fdc69559ebb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755608961626,
+          "stop" : 1755608994030,
+          "duration" : 32404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e63fa9c39eb658f88e9fdc69559ebb6"
+    }, {
+      "name" : "1300@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "3f516fd0c1703a5",
+        "parentUid" : "ad00d1562cc7cddd246dd2ce6090dc40",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755612206238,
+          "stop" : 1755612212898,
+          "duration" : 6660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad00d1562cc7cddd246dd2ce6090dc40"
+    }, {
+      "name" : "1384@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "cb265aac92b8b43",
+        "parentUid" : "c2d0ac83c95b04a8761a37226a184302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755615446799,
+          "stop" : 1755615477504,
+          "duration" : 30705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2d0ac83c95b04a8761a37226a184302"
+    }, {
+      "name" : "7544@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "3cbea31fae368ae0",
+        "parentUid" : "52131b6cfcf189cfa7fe44299aee80b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755606934641,
+          "stop" : 1755607024028,
+          "duration" : 89387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52131b6cfcf189cfa7fe44299aee80b7"
+    }, {
+      "name" : "10160@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "90a80e34d1bc23ca",
+        "parentUid" : "41deba8ea4d61c767cd560c3a3898e95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755606488101,
+          "stop" : 1755606494079,
+          "duration" : 5978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41deba8ea4d61c767cd560c3a3898e95"
+    }, {
+      "name" : "8708@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "b108d8f2561cb767",
+        "parentUid" : "0c68ed62ae259411accd1ad156d7a257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755594296912,
+          "stop" : 1755594304745,
+          "duration" : 7833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "0c68ed62ae259411accd1ad156d7a257"
+    }, {
+      "name" : "11812@DESKTOP-N461L09.main(3)",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "40e9ae4e0247cd1d",
+        "parentUid" : "f25818004d02b9682295dbb4552adc5e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755528126119,
+          "stop" : 1755528126121,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f25818004d02b9682295dbb4552adc5e"
+    }, {
+      "name" : "4920@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "b3cf5d69a5ed3a1",
+        "parentUid" : "18406eb301c8bf7512b89acf97ac1fbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755596732920,
+          "stop" : 1755596750170,
+          "duration" : 17250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18406eb301c8bf7512b89acf97ac1fbf"
+    }, {
+      "name" : "15864@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "839f9f2f208500cd",
+        "parentUid" : "001dd3b2df05c183acd26f9a6649a160",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755604648899,
+          "stop" : 1755604655234,
+          "duration" : 6335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "001dd3b2df05c183acd26f9a6649a160"
+    }, {
+      "name" : "12732@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "e59e8af530e10c2",
+        "parentUid" : "7dc9367ea09dd0570ee25c219f387ece",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755592680251,
+          "stop" : 1755592708704,
+          "duration" : 28453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7dc9367ea09dd0570ee25c219f387ece"
+    }, {
+      "name" : "13672@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "dba46bd5bf942e6f",
+        "parentUid" : "6c8b385786ba2ff63d6ce52b11464ba3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755608821107,
+          "stop" : 1755608923989,
+          "duration" : 102882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c8b385786ba2ff63d6ce52b11464ba3"
+    }, {
+      "name" : "13036@DESKTOP-N461L09.main(3)",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "a9d19d8a96536d1",
+        "parentUid" : "704a003d62fc65cda3a2f2837ec2e17b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755529533487,
+          "stop" : 1755529533490,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "704a003d62fc65cda3a2f2837ec2e17b"
+    }, {
+      "name" : "7664@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "e7b2603e54f43f51",
+        "parentUid" : "6e969b332bc2c5b25b9cebf3042c95a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755669253364,
+          "stop" : 1755669287021,
+          "duration" : 33657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e969b332bc2c5b25b9cebf3042c95a0"
+    }, {
+      "name" : "13912@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "f498bafe5d4311aa",
+        "parentUid" : "92e4047274f83df8a06d330e2e9d6cd5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755594132960,
+          "stop" : 1755594133118,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92e4047274f83df8a06d330e2e9d6cd5"
+    }, {
+      "name" : "13868@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "5b8e4d4e864f01f1",
+        "parentUid" : "4cc999a852cb668a694a8bdea3d649d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755529667096,
+          "stop" : 1755529695001,
+          "duration" : 27905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cc999a852cb668a694a8bdea3d649d8"
+    }, {
+      "name" : "14136@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "697190d375b24c0a",
+        "parentUid" : "41cb1e317d124ed57f920322a7ea051c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755612556269,
+          "stop" : 1755612573362,
+          "duration" : 17093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41cb1e317d124ed57f920322a7ea051c"
+    }, {
+      "name" : "4240@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "e6aba7525fc30309",
+        "parentUid" : "4ce15a84f2f4d988214ead97004d4630",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755614468027,
+          "stop" : 1755614496825,
+          "duration" : 28798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ce15a84f2f4d988214ead97004d4630"
+    }, {
+      "name" : "23220@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "9d4c3c037c06e7e",
+        "parentUid" : "e4b31ed497065d69f1e2615b7485f369",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755676925741,
+          "stop" : 1755676944763,
+          "duration" : 19022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4b31ed497065d69f1e2615b7485f369"
+    }, {
+      "name" : "17400@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "d73dc0ab747189db",
+        "parentUid" : "2255c5c9d096275869280da7df744d46",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755608081847,
+          "stop" : 1755608100435,
+          "duration" : 18588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2255c5c9d096275869280da7df744d46"
+    }, {
+      "name" : "19284@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "640f135e34efcd4c",
+        "parentUid" : "07dacd41869749a9146c4e3b437f1dcc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755612264503,
+          "stop" : 1755612285891,
+          "duration" : 21388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07dacd41869749a9146c4e3b437f1dcc"
+    }, {
+      "name" : "4920@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "8fc130aff195cd5c",
+        "parentUid" : "3ed9e0af730367e3a1f5898fb381d9b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755596732929,
+          "stop" : 1755596738810,
+          "duration" : 5881
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "3ed9e0af730367e3a1f5898fb381d9b0"
+    }, {
+      "name" : "14952@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "7e4ad7c1ef206d25",
+        "parentUid" : "72eacfad4a942d601ec7516ad2010baf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755607702007,
+          "stop" : 1755607709949,
+          "duration" : 7942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72eacfad4a942d601ec7516ad2010baf"
+    }, {
+      "name" : "14748@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "a5728163c75f7039",
+        "parentUid" : "f92cd23eb9f6cb3fc266f76a308e3472",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755607653501,
+          "stop" : 1755607661079,
+          "duration" : 7578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f92cd23eb9f6cb3fc266f76a308e3472"
+    }, {
+      "name" : "2524@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "862ce368c212ad6a",
+        "parentUid" : "2977b0895c7d50fe2c91c431beafc36d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755608001511,
+          "stop" : 1755608012163,
+          "duration" : 10652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2977b0895c7d50fe2c91c431beafc36d"
+    }, {
+      "name" : "11956@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "1289f152191df87e",
+        "parentUid" : "02b7c7bd4978d7368949d8c7d2903bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755593150487,
+          "stop" : 1755593154738,
+          "duration" : 4251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "02b7c7bd4978d7368949d8c7d2903bbb"
+    }, {
+      "name" : "13148@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "23fc8734cea39a81",
+        "parentUid" : "ac4c4ffff8da2d06412d2673c39b6384",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755594821588,
+          "stop" : 1755594828988,
+          "duration" : 7400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "ac4c4ffff8da2d06412d2673c39b6384"
+    }, {
+      "name" : "8780@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "505552d66e2f21f6",
+        "parentUid" : "9ec1c6a8e091e0887517ec1f76ecf3a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755608138493,
+          "stop" : 1755608196738,
+          "duration" : 58245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ec1c6a8e091e0887517ec1f76ecf3a1"
+    }, {
+      "name" : "17272@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "ac744194aeb51b64",
+        "parentUid" : "1be499011775e2a6e54243bd5f7d60b0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755676633730,
+          "stop" : 1755676652543,
+          "duration" : 18813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1be499011775e2a6e54243bd5f7d60b0"
+    }, {
+      "name" : "8708@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "69684745d97bb4e4",
+        "parentUid" : "72b2938b4883095721caa4a72a91633e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755594296906,
+          "stop" : 1755594331157,
+          "duration" : 34251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72b2938b4883095721caa4a72a91633e"
+    }, {
+      "name" : "13596@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "dda8890b24fe9280",
+        "parentUid" : "c34065305241e08312f6f65751bd3c0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755607767085,
+          "stop" : 1755607776156,
+          "duration" : 9071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c34065305241e08312f6f65751bd3c0d"
+    }, {
+      "name" : "14680@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "8990f4cf985d2413",
+        "parentUid" : "52bc69d71d108b30524bfa391de394b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755605334049,
+          "stop" : 1755605342551,
+          "duration" : 8502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52bc69d71d108b30524bfa391de394b8"
+    }, {
+      "name" : "17556@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "58a65a031fd45f29",
+        "parentUid" : "569c602d46b79022b90fe40544cbd111",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755610589772,
+          "stop" : 1755610634743,
+          "duration" : 44971
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "569c602d46b79022b90fe40544cbd111"
+    }, {
+      "name" : "16696@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "f5142ce173863a13",
+        "parentUid" : "2c4910033ca0bb3a6f84323ce433b3e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755608545581,
+          "stop" : 1755608650771,
+          "duration" : 105190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c4910033ca0bb3a6f84323ce433b3e3"
+    }, {
+      "name" : "13476@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "e130743b07d89689",
+        "parentUid" : "a5a4639ccc5732db31af8ef7588bc877",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755606293386,
+          "stop" : 1755606299459,
+          "duration" : 6073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5a4639ccc5732db31af8ef7588bc877"
+    }, {
+      "name" : "12508@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "18d4b36e2eb24b0b",
+        "parentUid" : "2938a879838ac42e9361463da8837853",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755596332665,
+          "stop" : 1755596340438,
+          "duration" : 7773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "2938a879838ac42e9361463da8837853"
+    }, {
+      "name" : "9104@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "e5afc2a77c641ab3",
+        "parentUid" : "25c8170f6b45b3d0a21127193bd95adb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755613861469,
+          "stop" : 1755613882575,
+          "duration" : 21106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25c8170f6b45b3d0a21127193bd95adb"
+    }, {
+      "name" : "13496@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "b76ca56626756343",
+        "parentUid" : "58b97723e9b8c06dc92284ed5ee4a163",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755592959916,
+          "stop" : 1755592987334,
+          "duration" : 27418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58b97723e9b8c06dc92284ed5ee4a163"
+    }, {
+      "name" : "14788@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "efdff4ff54f8d670",
+        "parentUid" : "9aaa37d3a4e3e6c07777988c7e392a14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755615594931,
+          "stop" : 1755615629109,
+          "duration" : 34178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9aaa37d3a4e3e6c07777988c7e392a14"
+    }, {
+      "name" : "13364@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "5ebab9badaf4cab7",
+        "parentUid" : "e005c4df59172788ce39a385d5c4b09d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755594506526,
+          "stop" : 1755594540733,
+          "duration" : 34207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e005c4df59172788ce39a385d5c4b09d"
+    }, {
+      "name" : "11392@DESKTOP-N461L09.main(3)",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "9e5ca47a6566497d",
+        "parentUid" : "0372d6232b8cfb270b9b9882225059b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755528978476,
+          "stop" : 1755528978478,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0372d6232b8cfb270b9b9882225059b5"
+    }, {
+      "name" : "17688@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "571259bfd2919fea",
+        "parentUid" : "025c4e2de8c9ec066185d20dce4155ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755608708920,
+          "stop" : 1755608742511,
+          "duration" : 33591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "025c4e2de8c9ec066185d20dce4155ab"
+    }, {
+      "name" : "12236@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "dfb1ad30150b79c9",
+        "parentUid" : "9968985abf917b324dfd5c85aa015498",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755606175572,
+          "stop" : 1755606184172,
+          "duration" : 8600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9968985abf917b324dfd5c85aa015498"
+    }, {
+      "name" : "3320@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "80a42b1a2a2db5c1",
+        "parentUid" : "0866454832ba7e4f06cfc0f176a10e1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755594685879,
+          "stop" : 1755594732016,
+          "duration" : 46137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "0866454832ba7e4f06cfc0f176a10e1d"
+    }, {
+      "name" : "16568@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "646d716dfe293c2f",
+        "parentUid" : "ebb47f2cac78e889c3f7e76ae29096d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755682664093,
+          "stop" : 1755682675288,
+          "duration" : 11195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebb47f2cac78e889c3f7e76ae29096d4"
+    }, {
+      "name" : "13740@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "54846fe849276a94",
+        "parentUid" : "9d2ddc9ffa56e40ce5caa99b6ce9fea7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755598578752,
+          "stop" : 1755598595728,
+          "duration" : 16976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d2ddc9ffa56e40ce5caa99b6ce9fea7"
+    }, {
+      "name" : "13640@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "ecd797d19eb405ad",
+        "parentUid" : "9b83a2227bdfba667a4a35dce739fa63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755593470422,
+          "stop" : 1755593477302,
+          "duration" : 6880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "9b83a2227bdfba667a4a35dce739fa63"
+    }, {
+      "name" : "3320@DESKTOP-N461L09.TestNG-PoolService-2(41)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "8f18f297574bd5f4",
+        "parentUid" : "059f0ac154fade69f27f6a3e066a5b77",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755594685868,
+          "stop" : 1755594725435,
+          "duration" : 39567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "059f0ac154fade69f27f6a3e066a5b77"
+    }, {
+      "name" : "13144@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "b6a353571fc69b19",
+        "parentUid" : "c8dffd9275b667c3e9861d72b2ae2d2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755594771329,
+          "stop" : 1755594805121,
+          "duration" : 33792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8dffd9275b667c3e9861d72b2ae2d2d"
+    }, {
+      "name" : "13296@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "1002a00b3389ab06",
+        "parentUid" : "f5d39963d32c75e626683db93f1d2212",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755595243085,
+          "stop" : 1755595261361,
+          "duration" : 18276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5d39963d32c75e626683db93f1d2212"
+    }, {
+      "name" : "17928@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "ee1dd72f641d8ce4",
+        "parentUid" : "fe39c7064a3f854fb106fc84843ffb43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755612135366,
+          "stop" : 1755612141726,
+          "duration" : 6360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe39c7064a3f854fb106fc84843ffb43"
+    }, {
+      "name" : "12384@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "3f1b2af9b5b28566",
+        "parentUid" : "1eee490eb49f9e7f8404640fb5e7511b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755673372200,
+          "stop" : 1755673383597,
+          "duration" : 11397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1eee490eb49f9e7f8404640fb5e7511b"
+    }, {
+      "name" : "14832@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "9748433ef50560ac",
+        "parentUid" : "c75d93f50f750fcc5cb2e7c9901f15a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755605412517,
+          "stop" : 1755605420271,
+          "duration" : 7754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c75d93f50f750fcc5cb2e7c9901f15a9"
+    }, {
+      "name" : "19808@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "6c7a4d0cd9e83efc",
+        "parentUid" : "e2d82167cf6e92956e08137bb4ef9274",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755669481435,
+          "stop" : 1755669507899,
+          "duration" : 26464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2d82167cf6e92956e08137bb4ef9274"
+    }, {
+      "name" : "5556@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "6dc80dbef2514230",
+        "parentUid" : "18f222bae95833da8d3e0e243a44321e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755607210376,
+          "stop" : 1755607603564,
+          "duration" : 393188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18f222bae95833da8d3e0e243a44321e"
+    }, {
+      "name" : "15540@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "d3298a21ad553a25",
+        "parentUid" : "e4bbdbfef687904dcee6c674b08d9304",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755606845609,
+          "stop" : 1755606919686,
+          "duration" : 74077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4bbdbfef687904dcee6c674b08d9304"
+    }, {
+      "name" : "16832@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "e0910fcad4273469",
+        "parentUid" : "e739b219527f6c7721c8e86beb57b3ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755669038886,
+          "stop" : 1755669078011,
+          "duration" : 39125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e739b219527f6c7721c8e86beb57b3ff"
+    }, {
+      "name" : "14500@DESKTOP-N461L09.main(3)",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "23f77417a5178854",
+        "parentUid" : "736c9885cc329755a6660b3aaf4ee4cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755528285400,
+          "stop" : 1755528285404,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "736c9885cc329755a6660b3aaf4ee4cb"
+    }, {
+      "name" : "16792@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "2aa60a3b233374bd",
+        "parentUid" : "d2de377e8efb03cacf1ccb409f4c09bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755609032844,
+          "stop" : 1755609065579,
+          "duration" : 32735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2de377e8efb03cacf1ccb409f4c09bf"
+    }, {
+      "name" : "14984@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "dba025f166913572",
+        "parentUid" : "2c470bac07650a51aed5389fcabfbc31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755610007514,
+          "stop" : 1755610106335,
+          "duration" : 98821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c470bac07650a51aed5389fcabfbc31"
+    }, {
+      "name" : "18892@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "b78c7f6d01fdc16",
+        "parentUid" : "6ddd7f488c62d77b12bdd3ef99852571",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755614380731,
+          "stop" : 1755614403384,
+          "duration" : 22653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ddd7f488c62d77b12bdd3ef99852571"
+    }, {
+      "name" : "13980@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "d62f546c4da42948",
+        "parentUid" : "6ffd6e279efbd6139a7771df5d60c8ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755606730352,
+          "stop" : 1755606739543,
+          "duration" : 9191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ffd6e279efbd6139a7771df5d60c8ae"
+    }, {
+      "name" : "13912@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "ab15ec5b00c8d23c",
+        "parentUid" : "b5a3935358cc5c2880e695135c2b2fe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755594132967,
+          "stop" : 1755594139197,
+          "duration" : 6230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "b5a3935358cc5c2880e695135c2b2fe5"
+    }, {
+      "name" : "13868@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "47de3ff93edbaef3",
+        "parentUid" : "7524090c75da79e43fc07931c8404d57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755529667101,
+          "stop" : 1755529671774,
+          "duration" : 4673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "7524090c75da79e43fc07931c8404d57"
+    }, {
+      "name" : "19240@DESKTOP-N461L09.TestNG-PoolService-1(40)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "581494bb0fd136e",
+        "parentUid" : "b79943925934bc3e28add9166d1a5381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755612587227,
+          "stop" : 1755612669838,
+          "duration" : 82611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b79943925934bc3e28add9166d1a5381"
+    }, {
+      "name" : "16764@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "afa21eaba3654f4f",
+        "parentUid" : "236bf90d1dfe26eb52025a4ba57c78e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755681700311,
+          "stop" : 1755681710658,
+          "duration" : 10347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "236bf90d1dfe26eb52025a4ba57c78e3"
+    }, {
+      "name" : "17580@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "8572352ac8521ad9",
+        "parentUid" : "cbcf0ed6c4c52fc6b3df3f587bd4c665",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755610779851,
+          "stop" : 1755610825562,
+          "duration" : 45711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbcf0ed6c4c52fc6b3df3f587bd4c665"
+    }, {
+      "name" : "4060@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "f4df87f8efa5bee2",
+        "parentUid" : "61eea2061ab88ecbd08444d30c81e42c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755611721698,
+          "stop" : 1755611748412,
+          "duration" : 26714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61eea2061ab88ecbd08444d30c81e42c"
+    }, {
+      "name" : "12072@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "da4d80c1ed7d96cf",
+        "parentUid" : "d9da0b8bb3cbdce67ee026d19cf1d95d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755607959483,
+          "stop" : 1755607965592,
+          "duration" : 6109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9da0b8bb3cbdce67ee026d19cf1d95d"
+    }, {
+      "name" : "11956@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "37fddb57238dd1ed",
+        "parentUid" : "78fddf6465f14a3f9ef389ca80f55502",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755593150481,
+          "stop" : 1755593160923,
+          "duration" : 10442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78fddf6465f14a3f9ef389ca80f55502"
+    }, {
+      "name" : "18004@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "f10b57d0d5c82fa8",
+        "parentUid" : "d6cbbcfa7406b5b7917b590810663235",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755611082017,
+          "stop" : 1755611125958,
+          "duration" : 43941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6cbbcfa7406b5b7917b590810663235"
+    }, {
+      "name" : "13144@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "57a1e11576637647",
+        "parentUid" : "514eecef2029fae2a8354acee4138ea5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755594771336,
+          "stop" : 1755594771488,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "514eecef2029fae2a8354acee4138ea5"
+    }, {
+      "name" : "18620@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "3dfb35da82cffe69",
+        "parentUid" : "73fb75af94860d92f2338f61a5452e6d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755677398988,
+          "stop" : 1755677413207,
+          "duration" : 14219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73fb75af94860d92f2338f61a5452e6d"
+    }, {
+      "name" : "15760@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "cc4715f6fc6db2cb",
+        "parentUid" : "c8ef868dcce1b32479c79ea813cfe442",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755597901753,
+          "stop" : 1755597918221,
+          "duration" : 16468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8ef868dcce1b32479c79ea813cfe442"
+    }, {
+      "name" : "10664@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "42170832915e9966",
+        "parentUid" : "d194a8bef9628fb3d44c4f9f4d69987b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755611667213,
+          "stop" : 1755611673622,
+          "duration" : 6409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d194a8bef9628fb3d44c4f9f4d69987b"
+    }, {
+      "name" : "9920@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "d77562a092fe4863",
+        "parentUid" : "6fd5fa792fc67a7034b44ba08716c9d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755674045123,
+          "stop" : 1755674053349,
+          "duration" : 8226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fd5fa792fc67a7034b44ba08716c9d3"
+    }, {
+      "name" : "12744@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "e9dede3b84cd622b",
+        "parentUid" : "f54e9c9ce5f06ea8ba75a052a7ac0b34",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755606382059,
+          "stop" : 1755606387613,
+          "duration" : 5554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f54e9c9ce5f06ea8ba75a052a7ac0b34"
+    }, {
+      "name" : "32@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "ed9753879ebe8a49",
+        "parentUid" : "b470a5598d310ff2a0c6c6c564c7554d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755609321779,
+          "stop" : 1755609423564,
+          "duration" : 101785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b470a5598d310ff2a0c6c6c564c7554d"
+    }, {
+      "name" : "23512@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "b7fca6982d04e7b7",
+        "parentUid" : "b7de9122d8f6014a09d650497614bcca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755677190121,
+          "stop" : 1755677200454,
+          "duration" : 10333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7de9122d8f6014a09d650497614bcca"
+    }, {
+      "name" : "15760@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "8a06d8fe1b2c99e4",
+        "parentUid" : "9cf02d49049f92d4d3bc0f162473c85e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755597901775,
+          "stop" : 1755597907302,
+          "duration" : 5527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "9cf02d49049f92d4d3bc0f162473c85e"
+    }, {
+      "name" : "13740@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "d8142d1a216a7e8",
+        "parentUid" : "4bbe1837357d4700abbe0a38c63cef1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755598578763,
+          "stop" : 1755598585884,
+          "duration" : 7121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "4bbe1837357d4700abbe0a38c63cef1a"
+    }, {
+      "name" : "13972@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "78c780cfc1ed319c",
+        "parentUid" : "8e71a6fdb6852a797aa6a3d9e6a65753",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755583510761,
+          "stop" : 1755583517344,
+          "duration" : 6583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "8e71a6fdb6852a797aa6a3d9e6a65753"
+    } ],
+    "uid" : "4ee34afcd4e62596f34eb8481064f3ab"
+  } ]
+}

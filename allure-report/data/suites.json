@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "untitled",
+      "children" : [ {
+        "name" : "runner.TestRun",
+        "children" : [ {
+          "name" : "setUpClass",
+          "uid" : "a9d19d8a96536d1",
+          "parentUid" : "7d862a2fdb474c433331c9432c4af8dc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1755529533487,
+            "stop" : 1755529533490,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7d862a2fdb474c433331c9432c4af8dc"
+      } ],
+      "uid" : "650719763af71a35138766190c06fae2"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Login Feature",
+    "children" : [ {
+      "name" : "Create a new user",
+      "uid" : "54846fe849276a94",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755598578752,
+        "stop" : 1755598595728,
+        "duration" : 16976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login to portal",
+      "uid" : "d8142d1a216a7e8",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755598578763,
+        "stop" : 1755598585884,
+        "duration" : 7121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+    }, {
+      "name" : "Delete a  user",
+      "uid" : "646d716dfe293c2f",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1755682664093,
+        "stop" : 1755682675288,
+        "duration" : 11195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f9c73e3b6043a10f46ec57e2285ab4c7"
+  } ]
+}

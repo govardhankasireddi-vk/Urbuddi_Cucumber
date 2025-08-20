@@ -1,0 +1,259 @@
+{
+  "uid" : "b3cf5d69a5ed3a1",
+  "name" : "Create a new user",
+  "fullName" : "src/test/java/features/urbuddi.feature:21",
+  "historyId" : "30dda87505c6338d2c98eeddc696369b",
+  "time" : {
+    "start" : 1755596732920,
+    "stop" : 1755596750170,
+    "duration" : 17250
+  },
+  "description" : "  This feature is to login to the urbuddi portal.",
+  "descriptionHtml" : "<p>This feature is to login to the urbuddi portal.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755596732932,
+      "stop" : 1755596732941,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "stepDefinitions.Hooks.driverIntialize()",
+    "time" : {
+      "start" : 1755596733051,
+      "stop" : 1755596735145,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "  This feature is to login to the urbuddi portal.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Launch the broswer",
+      "time" : {
+        "start" : 1755596735154,
+        "stop" : 1755596735236,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When User open the URL:",
+      "time" : {
+        "start" : 1755596735237,
+        "stop" : 1755596737600,
+        "duration" : 2363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf3e3dbfc56f5384",
+        "name" : "Data table",
+        "source" : "cf3e3dbfc56f5384.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User Enters Email  and password",
+      "time" : {
+        "start" : 1755596737606,
+        "stop" : 1755596738354,
+        "duration" : 748
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1054745badb4dffc",
+        "name" : "Data table",
+        "source" : "1054745badb4dffc.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 44
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Click on Login button.",
+      "time" : {
+        "start" : 1755596738355,
+        "stop" : 1755596738589,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Click on Employee icon and add Employee",
+      "time" : {
+        "start" : 1755596738589,
+        "stop" : 1755596740116,
+        "duration" : 1527
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Option to enter all the required fields should display",
+      "time" : {
+        "start" : 1755596740117,
+        "stop" : 1755596746081,
+        "duration" : 5964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "535043266ae562e4",
+        "name" : "Data table",
+        "source" : "535043266ae562e4.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 276
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And Click on add button",
+      "time" : {
+        "start" : 1755596746083,
+        "stop" : 1755596748383,
+        "duration" : 2300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Employee should be add succesfully.",
+      "time" : {
+        "start" : 1755596748384,
+        "stop" : 1755596749748,
+        "duration" : 1364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1755596749749,
+      "stop" : 1755596750165,
+      "duration" : 416
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N461L09"
+  }, {
+    "name" : "thread",
+    "value" : "4920@DESKTOP-N461L09.TestNG-PoolService-2(39)"
+  }, {
+    "name" : "feature",
+    "value" : "Login Feature"
+  }, {
+    "name" : "story",
+    "value" : "Create a new user"
+  }, {
+    "name" : "suite",
+    "value" : "Login Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a new user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/Admin/IdeaProjects/untitled/src/test/java/features/urbuddi.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.urbuddi_feature.Login Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "sanity" ]
+  },
+  "source" : "b3cf5d69a5ed3a1.json",
+  "parameterValues" : [ ]
+}

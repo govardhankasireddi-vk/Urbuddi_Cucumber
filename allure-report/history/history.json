@@ -1,0 +1,80 @@
+{
+  "480ef727f1fa0eb295ae0ef8e08c0bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9d19d8a96536d1",
+      "status" : "broken",
+      "statusDetails" : "The plugin specification 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm' has a problem:\n\nCould not load plugin class 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm'.\n\nPlugin specifications should have the format of PLUGIN[:[PATH|[URI [OPTIONS]]]\n\nValid values for PLUGIN are: html, json, junit, message, pretty, progress, rerun, summary, teamcity, testng, timeline, unused, usage\n\nPLUGIN can also be a fully qualified class name, allowing registration of 3rd party plugins. The 3rd party plugin must implement io.cucumber.plugin.Plugin",
+      "time" : {
+        "start" : 1755529533487,
+        "stop" : 1755529533490,
+        "duration" : 3
+      }
+    } ]
+  },
+  "4254f23a59ed33390c0a0d367c0ff796" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "646d716dfe293c2f",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"deleteIcon\">...</button> is not clickable at point (539, 48). Other element would receive the click: <nav class=\"w-100 d-flex justify-content-between nav-container\">...</nav>\n  (Session info: chrome=139.0.7258.67)\nBuild info: version: '4.33.0', revision: '2c6aaad03a'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9de72e51d12f9565fae5f355f70954e8, clickElement {id=f.A5F3F70921708BD71DAD40851CA875C1.d.862D2FFC707580B6F059E47E7BF98CA3.e.129}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9de72e51d12f9565fae5f355f70954e8)] -> xpath: //button[@class = 'deleteIcon']]\nSession ID: 9de72e51d12f9565fae5f355f70954e8",
+      "time" : {
+        "start" : 1755682664093,
+        "stop" : 1755682675288,
+        "duration" : 11195
+      }
+    } ]
+  },
+  "30dda87505c6338d2c98eeddc696369b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54846fe849276a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755598578752,
+        "stop" : 1755598595728,
+        "duration" : 16976
+      }
+    } ]
+  },
+  "76a02a3bc2f1eed9ce39fc1f063d0f50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8142d1a216a7e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1755598578763,
+        "stop" : 1755598585884,
+        "duration" : 7121
+      }
+    } ]
+  }
+}
