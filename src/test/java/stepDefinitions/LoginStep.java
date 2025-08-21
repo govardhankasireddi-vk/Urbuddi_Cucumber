@@ -34,7 +34,6 @@ public class LoginStep {
         loginPage = new login_page(driver);
         homePage = new Home_page(driver);
         employeePage = new Employee_page(driver);
-
     }
 
     @Given("Launch the broswer")
@@ -165,7 +164,7 @@ public class LoginStep {
 
     @Then("Employee should be add succesfully.")
     public void employeeShouldBeAddSuccesfully() throws InterruptedException {
-        Assert.assertEquals("Saved Successfully", homePage.getActualStatus());
+        Assert.assertEquals(homePage.getActualStatus(), "Saved Successfully");
         homePage.enterEmployeeIDInFilter(Employeeid);
         homePage.waitForActualResult();
         Assert.assertEquals(Employeeid, homePage.getActualEmployeeID());

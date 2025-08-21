@@ -1,40 +1,10 @@
 [ {
-  "uid" : "a9d19d8a96536d1",
-  "name" : "setUpClass",
+  "uid" : "f1791ce648045ff5",
+  "name" : "Add and Delete user scenario",
   "time" : {
-    "start" : 1755529533487,
-    "stop" : 1755529533490,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d8142d1a216a7e8",
-  "name" : "Login to portal",
-  "time" : {
-    "start" : 1755598578763,
-    "stop" : 1755598585884,
-    "duration" : 7121
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "646d716dfe293c2f",
-  "name" : "Delete a  user",
-  "time" : {
-    "start" : 1755682664093,
-    "stop" : 1755682675288,
-    "duration" : 11195
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "54846fe849276a94",
-  "name" : "Create a new user",
-  "time" : {
-    "start" : 1755598578752,
-    "stop" : 1755598595728,
-    "duration" : 16976
+    "start" : 1755772205734,
+    "stop" : 1755772216751,
+    "duration" : 11017
   },
   "status" : "passed",
   "severity" : "normal"

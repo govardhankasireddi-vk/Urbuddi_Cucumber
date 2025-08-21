@@ -57,7 +57,6 @@ public class DeleteEmployee_Page extends ElementUtils {
         for (int i = 0; i < getCheckBox(); i++) {
             item = checkBox.get(i);
            click(item);
-           System.out.println(i);
         }
     }
     public String getInitialEmployee() {
@@ -76,9 +75,18 @@ public class DeleteEmployee_Page extends ElementUtils {
     public void clickNextPageBtn(){
         click(nextPageBtn);
     }
+    public boolean NextPageBtnEnabled(){
+        try {
+            elementClickable(nextPageBtn, 5L);
+            return  true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
 
-    public void clickDeleteBtn(){
+    public void clickDeleteBtn()  {
         scrollUp();
         click(deleteBtn);
+
     }
 }

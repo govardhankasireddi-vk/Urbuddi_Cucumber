@@ -21,29 +21,18 @@ public class Hooks {
     String browser = ConfigReader.getProperty("browser");
     public final Logger logger = LoggerFactory.getLogger(Hooks.class);
 
-    @Before
+    @Before(order=1)
     public void driverIntialize() {
         DriverManager.setDriver(browser);
         logger.info("driver initiated");
     }
 
-    @Before
+    @Before(order=2)
     public void beforeScenario(Scenario scenario) {
         logger.info("Starting scenario: " + scenario.getName());
     }
 
-    @AfterStep
-    public void afterEachStep() {
-        String timeStamp = new SimpleDateFormat("HH:mm:ss.SSS").format(new Date());
-        byte[] screenshot = ScreenshotUtil.takeScreenshot(DriverManager.getDriver());
 
-        Allure.addAttachment(
-                "Step Screenshot - " + timeStamp,
-                "image/png",
-                new ByteArrayInputStream(screenshot),
-                ".png"
-        );
-    }
 
     @After
     public void afterScenario(Scenario scenario) {
@@ -53,6 +42,7 @@ public class Hooks {
             logger.error("Scenario failed: " + scenario.getName());
         } else {
             logger.info("Scenario passed: " + scenario.getName());
+            Allure.addAttachment("Test passed", "Executed successfully");
         }
         //DriverManager.closeDriver();
     }

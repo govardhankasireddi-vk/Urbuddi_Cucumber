@@ -1,10 +1,7 @@
 package Utilities;
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -61,9 +58,14 @@ public class ElementUtils {
 
     public void click(WebElement element) {
         visibilityOfElement(element, 15L);
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",element);
-        elementClickable(element,5L);
-        element.click();
+       ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({behavior: 'auto', block: 'center'});",element);
+        elementClickable(element,10L);
+        try {
+            element.click();
+        } catch (ElementClickInterceptedException e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        }
+
     }
 
     public String getText(WebElement element) {

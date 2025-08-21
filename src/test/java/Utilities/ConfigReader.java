@@ -13,7 +13,6 @@ public class ConfigReader {
             properties = new Properties();
             properties.load(fileInput);
         } catch (IOException e) {
-            e.printStackTrace();
             throw new RuntimeException("Failed to load config.properties file.");
         }
     }

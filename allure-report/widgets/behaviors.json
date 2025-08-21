@@ -1,15 +1,15 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
-    "uid" : "07ccdc9b95bf3f4817e5955bf1854cdd",
-    "name" : "Login Feature",
+    "uid" : "7a7fb3eee35abaffb1018c8d030ccc13",
+    "name" : "Add and Delete user Feature",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 1
     }
   } ]
 }

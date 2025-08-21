@@ -1,5 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Mon Aug 18 20:35:33 IST 2025","Mon Aug 18 20:35:33 IST 2025","3","Default Suite","untitled","runner.TestRun","runner.TestRun","setUpClass","setUpClass",""
-"passed","Tue Aug 19 15:46:18 IST 2025","Tue Aug 19 15:46:25 IST 2025","7121","","Login Feature","","Login to portal","","Login to portal","  This feature is to login to the urbuddi portal."
-"broken","Wed Aug 20 15:07:44 IST 2025","Wed Aug 20 15:07:55 IST 2025","11195","","Login Feature","","Delete a  user","","Delete a  user","  This feature is to login to the urbuddi portal."
-"passed","Tue Aug 19 15:46:18 IST 2025","Tue Aug 19 15:46:35 IST 2025","16976","","Login Feature","","Create a new user","","Create a new user","  This feature is to login to the urbuddi portal."
+"passed","Thu Aug 21 16:00:05 IST 2025","Thu Aug 21 16:00:16 IST 2025","11017","","Add and Delete user Feature","","Add and Delete user scenario","","Add and Delete user scenario","  This feature is to add employee in the application and delete the employee."

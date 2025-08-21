@@ -6,3 +6,4 @@ Feature: Delete Feature
     And User Enters Email and password from config
     And Click on Login button.
     When Click on Employee icon and delete the employee
+    Then Employee should be delete succesfully.

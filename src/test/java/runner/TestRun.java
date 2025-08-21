@@ -7,10 +7,12 @@ import org.testng.annotations.*;
 import io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm;
 import org.testng.annotations.BeforeClass;
 
+import java.io.File;
+
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/features/deleteUser.feature",
+        features = "src/test/java/features/AddAndDeleteUser.feature",
         glue = {"stepDefinitions"},
         dryRun = false,
         monochrome = true,
@@ -28,6 +30,24 @@ public class TestRun extends AbstractTestNGCucumberTests {
         Object[][] scenarios;
         scenarios = super.scenarios();
         return scenarios;
+    }
+
+    @BeforeSuite
+    public void cleanAllureResults() {
+        File allureResults = new File("allure-results");
+        if (allureResults.exists() && allureResults.isDirectory()) {
+            deleteDirectory(allureResults);
+        }
+    }
+
+    private void deleteDirectory(File directory) {
+        File[] allContents = directory.listFiles();
+        if (allContents != null) {
+            for (File file : allContents) {
+                deleteDirectory(file);
+            }
+        }
+        directory.delete();
     }
 
 }
