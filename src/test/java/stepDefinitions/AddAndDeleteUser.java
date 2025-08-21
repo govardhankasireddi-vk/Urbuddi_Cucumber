@@ -32,7 +32,7 @@ public class AddAndDeleteUser {
     public void delete_the_employee() {
         deleteEmployeePage.clickDeleteBtn();
         Assert.assertEquals(homePage.getActualStatus(), "Employee Deleted Successfully");
-        Allure.addAttachment("employee deleted", "Registered employee deleted");
+        Allure.addAttachment("employee status", "Registered employee deleted");
         DeleteStep.afterEachStep();
     }
 }
