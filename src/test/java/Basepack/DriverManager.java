@@ -26,6 +26,7 @@ public class DriverManager {
             case "chrome":
 
                 ChromeOptions options = new ChromeOptions();
+                options.addArguments("--headless=new");
                 prefs.put("profile.default_content_setting_values.notifications", 1);
                 options.setExperimentalOption("prefs", prefs);
                 driver.set(new ChromeDriver(options));
