@@ -12,7 +12,7 @@ import java.io.File;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/features/AddAndDeleteUser.feature",
+        features = "src/test/java/features",
         glue = {"stepDefinitions"},
         dryRun = false,
         monochrome = true,

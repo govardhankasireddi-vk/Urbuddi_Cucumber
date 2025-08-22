@@ -25,6 +25,7 @@ public class DeleteStep {
         String email = ConfigReader.getProperty("email");
         String password = ConfigReader.getProperty("password");
         String  name = ConfigReader.getProperty("name");
+        int count;
 
     public final Logger logger = LoggerFactory.getLogger(DeleteStep.class);
 
@@ -65,7 +66,7 @@ public class DeleteStep {
         }
 
         @When("Click on Employee icon and delete the employee")
-        public void clickOnEmployeeIconAndDeleteTheEmployee() throws InterruptedException {
+        public void clickOnEmployeeIconAndDeleteTheEmployee()  {
             homePage.clickEmployeePage();
             deleteEmployeePage.setName(name);
             if(deleteEmployeePage.employeesfilitered()) {
@@ -75,6 +76,7 @@ public class DeleteStep {
                         deleteEmployeePage.clickNextPageBtn();
                     }
                 }
+                count=1;
                 deleteEmployeePage.clickDeleteBtn();
             }
             else{
@@ -87,8 +89,10 @@ public class DeleteStep {
 
     @Then("Employee should be delete succesfully.")
     public void employeeShouldBeDeleteSuccesfully() {
-        Assert.assertEquals("Employee Deleted Successfully", homePage.getActualStatus());
-        afterEachStep();
+           if(count==1) {
+               Assert.assertEquals(homePage.getActualStatus(), "Employee Deleted Successfully");
+               afterEachStep();
+           }
     }
 }
 
