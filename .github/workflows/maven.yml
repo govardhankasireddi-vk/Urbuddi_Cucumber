@@ -8,7 +8,11 @@
 
 name: Java CI with Maven
 
+
+
 on:
+  schedule:
+    - cron: "35 20 * * 1"
   push:
     branches: [ "master" ]
   pull_request:

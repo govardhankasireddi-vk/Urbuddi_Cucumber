@@ -54,7 +54,6 @@ public class DriverManager {
             default:
                 throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
-        System.out.println("Running scenario on thread: " + Thread.currentThread().getId());
 
     }
 
