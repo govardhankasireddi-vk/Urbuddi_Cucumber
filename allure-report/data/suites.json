@@ -2,21 +2,85 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
+    "name" : "Login Feature",
+    "children" : [ {
+      "name" : "Create a new user",
+      "uid" : "c8c4b5b1f07bfe51",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756100448591,
+        "stop" : 1756100462738,
+        "duration" : 14147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login to portal",
+      "uid" : "a833db64164782ad",
+      "parentUid" : "f9c73e3b6043a10f46ec57e2285ab4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756100448606,
+        "stop" : 1756100456346,
+        "duration" : 7740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+    } ],
+    "uid" : "f9c73e3b6043a10f46ec57e2285ab4c7"
+  }, {
+    "name" : "Delete Feature",
+    "children" : [ {
+      "name" : "Delete a  user",
+      "uid" : "dd0985b933c66c89",
+      "parentUid" : "5107f148ba579bac4f57fa7a5b761b54",
+      "status" : "broken",
+      "time" : {
+        "start" : 1756100448596,
+        "stop" : 1756100448832,
+        "duration" : 236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5107f148ba579bac4f57fa7a5b761b54"
+  }, {
     "name" : "Add and Delete user Feature",
     "children" : [ {
       "name" : "Add and Delete user scenario",
-      "uid" : "f1791ce648045ff5",
+      "uid" : "91e2cf4a62b56fb4",
       "parentUid" : "1dd63202f132b9c07bbb90720c006db6",
       "status" : "passed",
       "time" : {
-        "start" : 1755772205734,
-        "stop" : 1755772216751,
-        "duration" : 11017
+        "start" : 1756100448599,
+        "stop" : 1756100463672,
+        "duration" : 15073
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "1dd63202f132b9c07bbb90720c006db6"
+  }, {
+    "name" : "Register Employee",
+    "children" : [ {
+      "name" : "Create a new user using Excel data",
+      "uid" : "556e773780a399",
+      "parentUid" : "b8cfcf653dc25ed3b33a04254c57f9b0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1756100448605,
+        "stop" : 1756100474741,
+        "duration" : 26136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "src/test/java/resources/Urbuddi_data.xlsx", "Sheet1" ]
+    } ],
+    "uid" : "b8cfcf653dc25ed3b33a04254c57f9b0"
   } ]
 }

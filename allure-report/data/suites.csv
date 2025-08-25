@@ -1,2 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Aug 21 16:00:05 IST 2025","Thu Aug 21 16:00:16 IST 2025","11017","","Add and Delete user Feature","","Add and Delete user scenario","","Add and Delete user scenario","  This feature is to add employee in the application and delete the employee."
+"broken","Mon Aug 25 11:10:48 IST 2025","Mon Aug 25 11:10:48 IST 2025","236","","Delete Feature","","Delete a  user","","Delete a  user","  This feature is to delete the employees in the urbuddi portal."
+"passed","Mon Aug 25 11:10:48 IST 2025","Mon Aug 25 11:11:02 IST 2025","14147","","Login Feature","","Create a new user","","Create a new user","  This feature is to login to the urbuddi portal."
+"passed","Mon Aug 25 11:10:48 IST 2025","Mon Aug 25 11:10:56 IST 2025","7740","","Login Feature","","Login to portal","","Login to portal","  This feature is to login to the urbuddi portal."
+"broken","Mon Aug 25 11:10:48 IST 2025","Mon Aug 25 11:11:14 IST 2025","26136","","Register Employee","","Create a new user using Excel data","","Create a new user using Excel data","  This feature is to create an employee in urbuddi portal using excel."
+"passed","Mon Aug 25 11:10:48 IST 2025","Mon Aug 25 11:11:03 IST 2025","15073","","Add and Delete user Feature","","Add and Delete user scenario","","Add and Delete user scenario","  This feature is to add employee in the application and delete the employee."

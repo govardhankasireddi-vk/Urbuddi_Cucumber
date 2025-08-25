@@ -4,22 +4,90 @@
   "children" : [ {
     "name" : "DESKTOP-N461L09",
     "children" : [ {
-      "name" : "10000@DESKTOP-N461L09.TestNG-PoolService-1(38)",
+      "name" : "6744@DESKTOP-N461L09.TestNG-PoolService-1(38)",
       "children" : [ {
         "name" : "Add and Delete user scenario",
-        "uid" : "f1791ce648045ff5",
-        "parentUid" : "98e0e0f9dc48bd46962b448c89e6e3a9",
+        "uid" : "91e2cf4a62b56fb4",
+        "parentUid" : "994b17e90c4c6f4eba65c2338afffd10",
         "status" : "passed",
         "time" : {
-          "start" : 1755772205734,
-          "stop" : 1755772216751,
-          "duration" : 11017
+          "start" : 1756100448599,
+          "stop" : 1756100463672,
+          "duration" : 15073
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "98e0e0f9dc48bd46962b448c89e6e3a9"
+      "uid" : "994b17e90c4c6f4eba65c2338afffd10"
+    }, {
+      "name" : "6744@DESKTOP-N461L09.TestNG-PoolService-4(41)",
+      "children" : [ {
+        "name" : "Login to portal",
+        "uid" : "a833db64164782ad",
+        "parentUid" : "3092dd4728948480f00dc399ab89f8d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756100448606,
+          "stop" : 1756100456346,
+          "duration" : 7740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"https://dev.urbuddi.com/\"", "\"Logout\"", "\"twl4admin@gmail.com\"", "\"twl4test\"", "\"urBuddi\"" ]
+      } ],
+      "uid" : "3092dd4728948480f00dc399ab89f8d5"
+    }, {
+      "name" : "6744@DESKTOP-N461L09.TestNG-PoolService-2(39)",
+      "children" : [ {
+        "name" : "Create a new user using Excel data",
+        "uid" : "556e773780a399",
+        "parentUid" : "d48ab301bb0970f81ef5d7c45036ec78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1756100448605,
+          "stop" : 1756100474741,
+          "duration" : 26136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "src/test/java/resources/Urbuddi_data.xlsx", "Sheet1" ]
+      } ],
+      "uid" : "d48ab301bb0970f81ef5d7c45036ec78"
+    }, {
+      "name" : "6744@DESKTOP-N461L09.TestNG-PoolService-5(42)",
+      "children" : [ {
+        "name" : "Create a new user",
+        "uid" : "c8c4b5b1f07bfe51",
+        "parentUid" : "ee5864bf65061b088e8ebc8a0df5000a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1756100448591,
+          "stop" : 1756100462738,
+          "duration" : 14147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee5864bf65061b088e8ebc8a0df5000a"
+    }, {
+      "name" : "6744@DESKTOP-N461L09.TestNG-PoolService-3(40)",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "dd0985b933c66c89",
+        "parentUid" : "0e8d03f16412febd2ac963ce4378882b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1756100448596,
+          "stop" : 1756100448832,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e8d03f16412febd2ac963ce4378882b"
     } ],
     "uid" : "4ee34afcd4e62596f34eb8481064f3ab"
   } ]

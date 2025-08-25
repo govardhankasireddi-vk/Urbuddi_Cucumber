@@ -51,7 +51,7 @@ public class ExcelStep {
     }
 
     @And("add employees in the portal")
-    public void enterAllTheemployeeFields() throws InterruptedException {
+    public void enterAllTheemployeeFields() {
 
         for (Map<String, String> data : dataList) {
             String URL = data.get("URL");
@@ -95,8 +95,9 @@ public class ExcelStep {
             employeePage.setJod(jod);
             employeePage.setSalary();
             employeePage.setRole(role);
+            logger.info(Employeeid);
             employeePage.clickAddBtn();
-            Assert.assertEquals("Saved Successfully", homePage.getActualStatus());
+            Assert.assertEquals(homePage.getActualStatus(), "Saved Successfully");
             homePage.clickOnlogoutBtn();
         }
     }

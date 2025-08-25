@@ -1,5 +1,25 @@
 {
-  "6ee699e83d43af1ba8b6581c00a0625" : {
+  "4254f23a59ed33390c0a0d367c0ff796" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd0985b933c66c89",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"String.toLowerCase()\" because \"browser\" is null",
+      "time" : {
+        "start" : 1756100448596,
+        "stop" : 1756100448832,
+        "duration" : 236
+      }
+    } ]
+  },
+  "74bcb1663464ccc369c439f38dbeb833" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +29,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1791ce648045ff5",
+      "uid" : "91e2cf4a62b56fb4",
       "status" : "passed",
       "time" : {
-        "start" : 1755772205734,
-        "stop" : 1755772216751,
-        "duration" : 11017
+        "start" : 1756100448599,
+        "stop" : 1756100463672,
+        "duration" : 15073
+      }
+    } ]
+  },
+  "30dda87505c6338d2c98eeddc696369b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8c4b5b1f07bfe51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756100448591,
+        "stop" : 1756100462738,
+        "duration" : 14147
+      }
+    } ]
+  },
+  "9a3de88033a812f4bb4b27e37ad41cca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "556e773780a399",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='status']' (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1756100448605,
+        "stop" : 1756100474741,
+        "duration" : 26136
+      }
+    } ]
+  },
+  "76a02a3bc2f1eed9ce39fc1f063d0f50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a833db64164782ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756100448606,
+        "stop" : 1756100456346,
+        "duration" : 7740
       }
     } ]
   }

@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"String.toLowerCase()\" because \"browser\" is null",
+      "children" : [ {
+        "name" : "Delete a  user",
+        "uid" : "dd0985b933c66c89",
+        "parentUid" : "00e43b225a94320e7265060212a9debc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1756100448596,
+          "stop" : 1756100448832,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00e43b225a94320e7265060212a9debc"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='status']' (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Create a new user using Excel data",
+        "uid" : "556e773780a399",
+        "parentUid" : "11bc927cabf1c9da2a91528bcd818ad0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1756100448605,
+          "stop" : 1756100474741,
+          "duration" : 26136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "src/test/java/resources/Urbuddi_data.xlsx", "Sheet1" ]
+      } ],
+      "uid" : "11bc927cabf1c9da2a91528bcd818ad0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

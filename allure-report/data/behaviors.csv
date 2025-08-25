@@ -1,2 +1,6 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Delete Feature","Delete a  user","0","1","0","0","0"
+"","Login Feature","Create a new user","0","0","1","0","0"
+"","Login Feature","Login to portal","0","0","1","0","0"
+"","Register Employee","Create a new user using Excel data","0","1","0","0","0"
 "","Add and Delete user Feature","Add and Delete user scenario","0","0","1","0","0"

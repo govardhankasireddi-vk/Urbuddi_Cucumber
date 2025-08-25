@@ -1,6 +1,39 @@
 {
-  "total" : 1,
+  "total" : 4,
   "items" : [ {
+    "uid" : "da6bf4b4886c74dff8b4f0a17997ae69",
+    "name" : "Delete Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "94aec8094e081488bf8d4a1520ad34e9",
+    "name" : "Register Employee",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "07ccdc9b95bf3f4817e5955bf1854cdd",
+    "name" : "Login Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "7a7fb3eee35abaffb1018c8d030ccc13",
     "name" : "Add and Delete user Feature",
     "statistic" : {
