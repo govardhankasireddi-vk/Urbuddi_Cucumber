@@ -16,6 +16,7 @@ import java.io.File;
         glue = {"stepDefinitions"},
         dryRun = false,
         monochrome = true,
+        tags = "not @skip",
         plugin = {
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "pretty"
         }
