@@ -32,6 +32,7 @@ public class DeleteStep {
         login_page loginPage;
         Home_page homePage;
         DeleteEmployee_Page deleteEmployeePage;
+
        public DeleteStep(){
       loginPage = new login_page(driver);
       homePage = new Home_page(driver);

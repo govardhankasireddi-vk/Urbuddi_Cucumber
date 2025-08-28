@@ -12,7 +12,7 @@ import java.io.File;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/features",
+        features = "classpath:features",
         glue = {"stepDefinitions"},
         dryRun = false,
         monochrome = true,
@@ -48,7 +48,6 @@ public class TestRun extends AbstractTestNGCucumberTests {
             }
         }
         directory.delete();
-        //excel updated
     }
 
 }

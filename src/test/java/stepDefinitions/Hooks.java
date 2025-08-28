@@ -13,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.ByteArrayInputStream;
+import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -22,7 +23,7 @@ public class Hooks {
     public final Logger logger = LoggerFactory.getLogger(Hooks.class);
 
     @Before(order=1)
-    public void driverIntialize() {
+    public void driverIntialize() throws MalformedURLException {
         DriverManager.setDriver(browser);
         logger.info("driver initiated");
     }

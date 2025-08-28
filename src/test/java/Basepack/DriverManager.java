@@ -9,7 +9,11 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,42 +22,87 @@ public class DriverManager {
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     static Map<String, Object> prefs = new HashMap<>();
 
+    private static final boolean useGrid = Boolean.parseBoolean(System.getProperty("useGrid", "false"));
+    private static final String gridUrl = System.getProperty("gridUrl", "http://localhost:4444/wd/hub");
 
-    public static void setDriver(String browser) {
 
-        switch (browser.toLowerCase()) {
+    public static void setDriver(String browser) throws MalformedURLException {
+        if (useGrid) {
+            // Running on Selenium Grid
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            switch (browser.toLowerCase()) {
+                case "chrome":
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    //chromeOptions.addArguments("--headless=new");
+                    prefs.put("profile.default_content_setting_values.notifications", 1);
+                    chromeOptions.setExperimentalOption("prefs", prefs);
+                    capabilities.merge(chromeOptions);
+                    capabilities.setBrowserName("chrome");
+                    break;
 
-            case "chrome":
+                case "firefox":
+                    FirefoxProfile profile = new FirefoxProfile();
+                    profile.setPreference("permissions.default.desktop-notification", 1);
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    firefoxOptions.setProfile(profile);
+                    capabilities.merge(firefoxOptions);
+                    capabilities.setBrowserName("firefox");
+                    break;
 
-                ChromeOptions options = new ChromeOptions();
-                options.addArguments("--headless=new");
-                prefs.put("profile.default_content_setting_values.notifications", 1);
-                options.setExperimentalOption("prefs", prefs);
-                driver.set(new ChromeDriver(options));
-                getDriver().manage().window().maximize();
-                break;
+                case "edge":
+                    EdgeOptions edgeOptions = new EdgeOptions();
+                    prefs.put("profile.default_content_setting_values.notifications", 1);
+                    edgeOptions.setExperimentalOption("prefs", prefs);
+                    capabilities.merge(edgeOptions);
+                    capabilities.setBrowserName("MicrosoftEdge");
+                    break;
 
-            case "firefox":
-                FirefoxProfile profile = new FirefoxProfile();
-                profile.setPreference("permissions.default.desktop-notification", 1);
-                FirefoxOptions optionsfox = new FirefoxOptions();
-                optionsfox.setProfile(profile);
-                driver.set(new FirefoxDriver(optionsfox));
-                getDriver().manage().window().maximize();
-                break;
-
-            case "edge":
-                WebDriverManager.edgedriver().setup();
-                EdgeOptions edgeOptions = new EdgeOptions();
-                prefs.put("profile.default_content_setting_values.notifications", 1);
-                edgeOptions.setExperimentalOption("prefs", prefs);
-                driver.set(new EdgeDriver(edgeOptions));
-                getDriver().manage().window().maximize();
-                break;
-
-            default:
-                throw new IllegalArgumentException("Unsupported browser: " + browser);
+                default:
+                    throw new IllegalArgumentException("Unsupported browser: " + browser);
+            }
+            driver.set(new RemoteWebDriver(new URL(gridUrl), capabilities));
+            getDriver().manage().window().maximize();
         }
+        else {
+
+            switch (browser.toLowerCase()) {
+
+                case "chrome":
+
+                    ChromeOptions options = new ChromeOptions();
+                    //options.addArguments("--headless=new");
+                    prefs.put("profile.default_content_setting_values.notifications", 1);
+                    options.setExperimentalOption("prefs", prefs);
+                    driver.set(new ChromeDriver(options));
+                    getDriver().manage().window().maximize();
+                    break;
+
+                case "firefox":
+                    FirefoxProfile profile = new FirefoxProfile();
+                    profile.setPreference("permissions.default.desktop-notification", 1);
+                    FirefoxOptions optionsfox = new FirefoxOptions();
+                    optionsfox.setProfile(profile);
+                    driver.set(new FirefoxDriver(optionsfox));
+                    getDriver().manage().window().maximize();
+                    break;
+
+                case "edge":
+                    WebDriverManager.edgedriver().setup();
+                    EdgeOptions edgeOptions = new EdgeOptions();
+                    prefs.put("profile.default_content_setting_values.notifications", 1);
+                    edgeOptions.setExperimentalOption("prefs", prefs);
+                    driver.set(new EdgeDriver(edgeOptions));
+                    getDriver().manage().window().maximize();
+                    break;
+
+                default:
+                    throw new IllegalArgumentException("Unsupported browser: " + browser);
+            }
+        }
+
+
+
+
 
     }
 
@@ -66,3 +115,4 @@ public class DriverManager {
 
     }
 }
+

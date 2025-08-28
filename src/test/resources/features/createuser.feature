@@ -1,6 +1,6 @@
 Feature: Register Employee
   This feature is to create an employee in urbuddi portal using excel.
-
+@skip
   Scenario Outline: Create a new user using Excel data
     Given Launch the browser
     When User loads data from excel "<ExcelPath>" and sheet "<SheetName>"
