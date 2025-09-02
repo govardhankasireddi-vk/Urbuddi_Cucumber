@@ -33,11 +33,10 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn -DskipTests clean install
 
-      - name: Run Tests (allow failure)
-        run: mvn test -Dheadless=true || true
-        continue-on-error: true
+      - name: Run Tests (headless)
+        run: mvn test -Dheadless=true
 
       - name: Generate Allure Report via Maven
         run: mvn allure:report

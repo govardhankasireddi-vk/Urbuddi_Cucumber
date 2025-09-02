@@ -36,7 +36,12 @@ public class DriverManager {
             switch (browser.toLowerCase()) {
                 case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
-                    if (headless) chromeOptions.addArguments("--headless=new");
+                    if (headless) {
+                        chromeOptions.addArguments("--headless=new");
+                        chromeOptions.addArguments("--no-sandbox");
+                        chromeOptions.addArguments("--disable-dev-shm-usage");
+                        chromeOptions.addArguments("--disable-gpu");
+                    }
                     chromeOptions.setExperimentalOption("prefs", buildPrefs());
                     capabilities.merge(chromeOptions);
                     capabilities.setBrowserName("chrome");
@@ -120,8 +125,14 @@ public class DriverManager {
     }
 
     public static void closeDriver() {
-        driver.get().quit();
-
+        WebDriver currentDriver = driver.get();
+        if (currentDriver != null) {
+            try {
+                currentDriver.quit();
+            } finally {
+                driver.remove();
+            }
+        }
     }
 }
 
