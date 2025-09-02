@@ -20,7 +20,7 @@ import java.io.File;
         monochrome = true,
         tags = "not @skip",
         plugin = {
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "pretty","html:target/cucumber-html-report"
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "pretty"
         }
 )
 
@@ -37,7 +37,8 @@ public class TestRun extends AbstractTestNGCucumberTests {
 
     @BeforeSuite
     public void cleanAllureResults() {
-        File allureResults = new File("allure-results");
+
+        File allureResults = new File("target\\site\\allure-maven-plugin");
         if (allureResults.exists() && allureResults.isDirectory()) {
             deleteDirectory(allureResults);
         }
