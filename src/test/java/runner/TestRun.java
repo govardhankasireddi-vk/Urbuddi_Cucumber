@@ -28,7 +28,7 @@ import java.io.File;
 public class TestRun extends AbstractTestNGCucumberTests {
 
     @Override
-    @DataProvider(parallel = true)
+    @DataProvider(parallel = false)
     public Object[][] scenarios() {
         Object[][] scenarios;
         scenarios = super.scenarios();
