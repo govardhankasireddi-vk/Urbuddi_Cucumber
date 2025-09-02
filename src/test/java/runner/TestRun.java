@@ -58,6 +58,7 @@ public class TestRun extends AbstractTestNGCucumberTests {
         AllureReportGenerator.generateAllureReport();
         Thread.sleep(4000);
         //EmailUtils.sendReportByEmail();
+        //check report
         System.out.println("email sent");
     }
 
