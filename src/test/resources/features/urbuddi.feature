@@ -19,7 +19,6 @@ Feature: Login Feature
 
   @sanity
   Scenario: Create a new user
-
     When User open the URL:
       | URL                      |
       | https://dev.urbuddi.com/ |
