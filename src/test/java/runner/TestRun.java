@@ -38,7 +38,7 @@ public class TestRun extends AbstractTestNGCucumberTests {
     @BeforeSuite
     public void cleanAllureResults() {
 
-        File allureResults = new File("target\\site\\allure-maven-plugin");
+        File allureResults = new File("allure-results");
         if (allureResults.exists() && allureResults.isDirectory()) {
             deleteDirectory(allureResults);
         }
