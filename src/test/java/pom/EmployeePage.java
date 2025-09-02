@@ -10,7 +10,7 @@ import static Utilities.CommonUtils.name;
 import static Utilities.CommonUtils.num;
 
 
-public class Employee_page extends ElementUtils {
+public class EmployeePage extends ElementUtils {
 
 
     @FindBy(xpath = "//input[@name='firstName']")
@@ -72,7 +72,7 @@ public class Employee_page extends ElementUtils {
     @FindBy(xpath = "//form[@class='add-employee-form']/p")
     WebElement alertMsg;
 
-    public Employee_page(WebDriver driver) {
+    public EmployeePage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }

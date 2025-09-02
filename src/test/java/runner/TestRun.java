@@ -1,5 +1,7 @@
 package runner;
 
+import Utilities.AllureReportGenerator;
+import Utilities.EmailUtils;
 import io.cucumber.plugin.Plugin;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
@@ -12,13 +14,13 @@ import java.io.File;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features",
+        features = "classpath:features/deleteUser.feature",
         glue = {"stepDefinitions"},
         dryRun = false,
         monochrome = true,
         tags = "not @skip",
         plugin = {
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "pretty"
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "pretty","html:target/cucumber-html-report"
         }
 )
 
@@ -49,6 +51,14 @@ public class TestRun extends AbstractTestNGCucumberTests {
             }
         }
         directory.delete();
+    }
+
+    @AfterSuite
+    public void sendEmail() throws InterruptedException {
+        AllureReportGenerator.generateAllureReport();
+        Thread.sleep(4000);
+        //EmailUtils.sendReportByEmail();
+        System.out.println("email sent");
     }
 
 }

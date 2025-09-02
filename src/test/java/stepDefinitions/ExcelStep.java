@@ -10,9 +10,9 @@ import org.testng.Assert;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pom.Employee_page;
-import pom.Home_page;
-import pom.login_page;
+import pom.EmployeePage;
+import pom.HomePage;
+import pom.loginPage;
 
 import java.io.IOException;
 import java.util.List;
@@ -22,17 +22,17 @@ public class ExcelStep {
 
     public final Logger logger = LoggerFactory.getLogger(ExcelStep.class);
     public List<Map<String, String>> dataList;
-    login_page loginPage;
-    Home_page homePage;
-    Employee_page employeePage;
+    loginPage loginPage;
+    HomePage homePage;
+    EmployeePage employeePage;
     String Employeeid;
     WebDriver driver = DriverManager.getDriver();
 
 
     public ExcelStep() {
-        loginPage = new login_page(driver);
-        employeePage = new Employee_page(driver);
-        homePage = new Home_page(driver);
+        loginPage = new loginPage(driver);
+        employeePage = new EmployeePage(driver);
+        homePage = new HomePage(driver);
     }
 
 

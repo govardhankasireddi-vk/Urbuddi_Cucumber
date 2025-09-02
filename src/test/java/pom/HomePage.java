@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Home_page extends ElementUtils {
+public class HomePage extends ElementUtils {
 
 
     @FindBy(xpath = "//ul//p[text() = 'Employees']")
@@ -35,7 +35,7 @@ public class Home_page extends ElementUtils {
     By EmployeeIDInput = By.xpath("//div[@role ='row'][@row-index='0']//div[@aria-colindex='4']");
 
 
-    public Home_page(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }

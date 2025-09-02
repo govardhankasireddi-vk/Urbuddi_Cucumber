@@ -8,9 +8,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
-public class DeleteEmployee_Page extends ElementUtils {
+public class DeleteEmployeePage extends ElementUtils {
     WebElement item;
-    public DeleteEmployee_Page(WebDriver driver) {
+    public DeleteEmployeePage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }

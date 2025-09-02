@@ -3,6 +3,7 @@ package stepDefinitions;
 
 import Basepack.DriverManager;
 import Utilities.ConfigReader;
+import Utilities.EmailUtils;
 import Utilities.ScreenshotUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
@@ -11,6 +12,7 @@ import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.annotations.AfterSuite;
 
 import java.io.ByteArrayInputStream;
 import java.net.MalformedURLException;
@@ -47,6 +49,9 @@ public class Hooks {
         }
         //DriverManager.closeDriver();
     }
+
+
+
 }
 
 

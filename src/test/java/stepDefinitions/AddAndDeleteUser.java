@@ -5,21 +5,21 @@ import io.cucumber.java.en.Then;
 import io.qameta.allure.Allure;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import pom.DeleteEmployee_Page;
-import pom.Employee_page;
-import pom.Home_page;
+import pom.DeleteEmployeePage;
+import pom.EmployeePage;
+import pom.HomePage;
 
 public class AddAndDeleteUser {
 
     WebDriver driver = DriverManager.getDriver();
-    DeleteEmployee_Page deleteEmployeePage;
-    Employee_page employeePage;
-    Home_page homePage;
+    DeleteEmployeePage deleteEmployeePage;
+    EmployeePage employeePage;
+    HomePage homePage;
 
     public AddAndDeleteUser(){
-        deleteEmployeePage = new DeleteEmployee_Page(driver);
-        employeePage = new Employee_page(driver);
-        homePage = new Home_page(driver);
+        deleteEmployeePage = new DeleteEmployeePage(driver);
+        employeePage = new EmployeePage(driver);
+        homePage = new HomePage(driver);
     }
 
 

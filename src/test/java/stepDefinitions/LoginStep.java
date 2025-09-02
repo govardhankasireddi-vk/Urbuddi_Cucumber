@@ -11,9 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import pom.Employee_page;
-import pom.Home_page;
-import pom.login_page;
+import pom.EmployeePage;
+import pom.HomePage;
+import pom.loginPage;
 
 import java.util.List;
 import java.util.Map;
@@ -24,16 +24,16 @@ import static Utilities.CommonUtils.resolveRandomValue;
 public class LoginStep {
 
     public final Logger logger = LoggerFactory.getLogger(LoginStep.class);
-    login_page loginPage;
-    Home_page homePage;
-    Employee_page employeePage;
+    loginPage loginPage;
+    HomePage homePage;
+    EmployeePage employeePage;
     String Employeeid;
     WebDriver driver = DriverManager.getDriver();
 
     public LoginStep() {
-        loginPage = new login_page(driver);
-        homePage = new Home_page(driver);
-        employeePage = new Employee_page(driver);
+        loginPage = new loginPage(driver);
+        homePage = new HomePage(driver);
+        employeePage = new EmployeePage(driver);
     }
 
     @Given("Launch the broswer")

@@ -37,8 +37,11 @@ build/
 ### Mac OS ###
 .DS_Store
 
-
+#reports
 /allure-results
 /allure-report
 /test-output
 /.idea
+
+# Local test config (contains secrets) - do not commit
+/src/test/java/resources/config.properties

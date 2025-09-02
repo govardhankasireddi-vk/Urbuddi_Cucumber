@@ -36,7 +36,6 @@ public class CommonUtils {
             return value;
         } else if (value.equalsIgnoreCase("Random_Num")) {
             return num();
-
         } else if (value.contains("Random_id")) {
             value = value.replace("Random_id", num().substring(1, 5));
             return value;

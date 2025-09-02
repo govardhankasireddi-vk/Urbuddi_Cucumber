@@ -11,9 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import pom.DeleteEmployee_Page;
-import pom.Home_page;
-import pom.login_page;
+import pom.DeleteEmployeePage;
+import pom.HomePage;
+import pom.loginPage;
 
 import java.io.ByteArrayInputStream;
 import java.text.SimpleDateFormat;
@@ -29,14 +29,14 @@ public class DeleteStep {
 
     public final Logger logger = LoggerFactory.getLogger(DeleteStep.class);
 
-        login_page loginPage;
-        Home_page homePage;
-        DeleteEmployee_Page deleteEmployeePage;
+        loginPage loginPage;
+        HomePage homePage;
+        DeleteEmployeePage deleteEmployeePage;
 
        public DeleteStep(){
-      loginPage = new login_page(driver);
-      homePage = new Home_page(driver);
-      deleteEmployeePage = new DeleteEmployee_Page(driver);
+      loginPage = new loginPage(driver);
+      homePage = new HomePage(driver);
+      deleteEmployeePage = new DeleteEmployeePage(driver);
 
        }
 

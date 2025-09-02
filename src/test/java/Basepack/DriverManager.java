@@ -1,5 +1,6 @@
 package Basepack;
 
+import Utilities.ConfigReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,22 +21,23 @@ import java.util.Map;
 public class DriverManager {
 
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-    static Map<String, Object> prefs = new HashMap<>();
-
     private static final boolean useGrid = Boolean.parseBoolean(System.getProperty("useGrid", "false"));
     private static final String gridUrl = System.getProperty("gridUrl", "http://localhost:4444/wd/hub");
 
 
     public static void setDriver(String browser) throws MalformedURLException {
+
+        boolean headless = Boolean.parseBoolean(System.getProperty("headless",
+                ConfigReader.getProperty("headless")));
+
         if (useGrid) {
             // Running on Selenium Grid
             DesiredCapabilities capabilities = new DesiredCapabilities();
             switch (browser.toLowerCase()) {
                 case "chrome":
                     ChromeOptions chromeOptions = new ChromeOptions();
-                    //chromeOptions.addArguments("--headless=new");
-                    prefs.put("profile.default_content_setting_values.notifications", 1);
-                    chromeOptions.setExperimentalOption("prefs", prefs);
+                    if (headless) chromeOptions.addArguments("--headless=new");
+                    chromeOptions.setExperimentalOption("prefs", buildPrefs());
                     capabilities.merge(chromeOptions);
                     capabilities.setBrowserName("chrome");
                     break;
@@ -44,6 +46,7 @@ public class DriverManager {
                     FirefoxProfile profile = new FirefoxProfile();
                     profile.setPreference("permissions.default.desktop-notification", 1);
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    if (headless) firefoxOptions.addArguments("-headless");
                     firefoxOptions.setProfile(profile);
                     capabilities.merge(firefoxOptions);
                     capabilities.setBrowserName("firefox");
@@ -51,8 +54,8 @@ public class DriverManager {
 
                 case "edge":
                     EdgeOptions edgeOptions = new EdgeOptions();
-                    prefs.put("profile.default_content_setting_values.notifications", 1);
-                    edgeOptions.setExperimentalOption("prefs", prefs);
+                    if (headless) edgeOptions.addArguments("--headless=new");
+                    edgeOptions.setExperimentalOption("prefs", buildPrefs());
                     capabilities.merge(edgeOptions);
                     capabilities.setBrowserName("MicrosoftEdge");
                     break;
@@ -70,9 +73,8 @@ public class DriverManager {
                 case "chrome":
 
                     ChromeOptions options = new ChromeOptions();
-                    //options.addArguments("--headless=new");
-                    prefs.put("profile.default_content_setting_values.notifications", 1);
-                    options.setExperimentalOption("prefs", prefs);
+                    if (headless) options.addArguments("--headless=new");
+                    options.setExperimentalOption("prefs", buildPrefs());
                     driver.set(new ChromeDriver(options));
                     getDriver().manage().window().maximize();
                     break;
@@ -81,6 +83,7 @@ public class DriverManager {
                     FirefoxProfile profile = new FirefoxProfile();
                     profile.setPreference("permissions.default.desktop-notification", 1);
                     FirefoxOptions optionsfox = new FirefoxOptions();
+                    if (headless) optionsfox.addArguments("-headless");
                     optionsfox.setProfile(profile);
                     driver.set(new FirefoxDriver(optionsfox));
                     getDriver().manage().window().maximize();
@@ -89,8 +92,8 @@ public class DriverManager {
                 case "edge":
                     WebDriverManager.edgedriver().setup();
                     EdgeOptions edgeOptions = new EdgeOptions();
-                    prefs.put("profile.default_content_setting_values.notifications", 1);
-                    edgeOptions.setExperimentalOption("prefs", prefs);
+                    if (headless) edgeOptions.addArguments("--headless=new");
+                    edgeOptions.setExperimentalOption("prefs", buildPrefs());
                     driver.set(new EdgeDriver(edgeOptions));
                     getDriver().manage().window().maximize();
                     break;
@@ -100,10 +103,12 @@ public class DriverManager {
             }
         }
 
+    }
 
-
-
-
+    private static Map<String, Object> buildPrefs() {
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("profile.default_content_setting_values.notifications", 1);
+        return prefs;
     }
 
     public static WebDriver getDriver() {

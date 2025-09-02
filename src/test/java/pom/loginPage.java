@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class login_page extends ElementUtils {
+public class loginPage extends ElementUtils {
 
 
     @FindBy(id = "userEmail")
@@ -20,7 +20,7 @@ public class login_page extends ElementUtils {
     WebElement loginBtn;
 
 
-    public login_page(WebDriver driver) {
+    public loginPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }
