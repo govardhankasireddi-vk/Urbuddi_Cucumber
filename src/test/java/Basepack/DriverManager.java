@@ -73,7 +73,11 @@ public class DriverManager {
                 case "chrome":
 
                     ChromeOptions options = new ChromeOptions();
-                    if (headless) options.addArguments("--headless=new");
+                    if (headless){ options.addArguments("--headless=new");
+                        options.addArguments("--no-sandbox");
+                        options.addArguments("--disable-dev-shm-usage");
+                        options.addArguments("--disable-gpu");
+                    };
                     options.setExperimentalOption("prefs", buildPrefs());
                     driver.set(new ChromeDriver(options));
                     getDriver().manage().window().maximize();
