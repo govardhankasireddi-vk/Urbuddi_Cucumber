@@ -120,7 +120,15 @@ public class DriverManager {
     }
 
     public static void closeDriver() {
-        driver.get().quit();
+        WebDriver currentDriver = driver.get();
+        if(currentDriver != null){
+            try{
+                currentDriver.quit();
+            }
+            finally{
+                driver.remove();
+            }
+        }
 
     }
 }

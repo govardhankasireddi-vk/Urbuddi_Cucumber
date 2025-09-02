@@ -47,7 +47,7 @@ public class Hooks {
             logger.info("Scenario passed: " + scenario.getName());
             Allure.addAttachment("Test passed", "Executed successfully");
         }
-        //DriverManager.closeDriver();
+        DriverManager.closeDriver();
     }
 
 
