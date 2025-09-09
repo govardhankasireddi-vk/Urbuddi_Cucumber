@@ -37,7 +37,7 @@ public class ElementUtils {
     }
 
     public void sendKeysWhenVisible(WebElement element, String value) {
-        visibilityOfElement(element, 10L);
+        visibilityOfElement(element, 15L);
         element.clear();
         element.sendKeys(value);
     }
