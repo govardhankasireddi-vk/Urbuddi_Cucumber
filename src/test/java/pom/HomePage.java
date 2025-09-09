@@ -16,6 +16,13 @@ public class HomePage extends ElementUtils {
     @FindBy(xpath = "//button[text() ='Add Employee']")
     WebElement addEmployeeBtn;
 
+    @FindBy(xpath = "//div[contains(@class,'ag-header-cell ag-header-cell-sortable ag-focus-managed')]//div[contains(@role,'presentation')]//div[contains(@role,'presentation')]//div[contains(@role,'presentation')]")
+    WebElement employeeIDColumn;
+
+    @FindBy(xpath = "//span[normalize-space()='NAME']")
+    WebElement nameColumn;
+
+
     @FindBy(xpath = "//div[@role='status']")
     WebElement employeeConfirmationStatus;
 
@@ -91,4 +98,14 @@ public class HomePage extends ElementUtils {
         }
 
     }
+
+
+    public void waitForEmployeeIDVisiblity() {
+        visibilityOfElement(employeeIDColumn,10L);
+    }
+
+    public void moveEmployeeIDColumn(){
+       dragAndDrop(employeeIDColumn,nameColumn);
+    }
+
 }

@@ -2,6 +2,7 @@ package Utilities;
 
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -75,6 +76,12 @@ public class ElementUtils {
     public void scrollUp(){
         ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, 0)");
     }
+
+    public void dragAndDrop(WebElement source , WebElement destination){
+        Actions actions = new Actions(driver);
+        actions.dragAndDrop(source,destination).release().perform();
+    }
+
 
 }
 
